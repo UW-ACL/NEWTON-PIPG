@@ -1,0 +1,53 @@
+function [Q, Q_inv] = dev_S_inv_g(z0, N, nx, nu, proj_index_all, proj_coefficients_all,P, alpha)
+% the output is the eigenvalue decomposition of S_inv. P is the diagonal
+% matrix in the objectfunciton
+Q = zeros(nx + nu, nx + nu, N);% 1:n-1 are nx+nu**2 but the Nth is nx**2.
+Q_inv = Q;
+for i = 1:(N)
+    proj_temp_index = proj_index_all(:,:,i);
+    proj_temp_coeff = proj_coefficients_all(:,:,i);
+    if i <N
+        [Q(:, :,i),Q_inv(:, :, i)]= jacob_D_unit(z0((i-1) * (nx + nu)+ (1:(nx + nu))), proj_temp_index, proj_temp_coeff, P((i-1) * (nx + nu)+ (1:(nx + nu))), alpha);
+    else
+        [Q(1:nx,1:nx,N), Q_inv(1:nx,1:nx,N)] =jacob_D_unit(z0((i-1) * (nx + nu)+ (1:(nx))), proj_temp_index, proj_temp_coeff, P((i-1) * (nx + nu)+ (1:(nx))), alpha);%Specified! only for the LCvx case
+    end
+end
+
+
+
+
+
+end
+
+
+function [Q, Q_inv] = jacob_D_unit(z0, proj_index, proj_coefficients, P, alpha)
+Q = zeros(length(z0));
+Q_inv = Q;
+temp = 1;
+while temp <= length(z0)
+    if proj_index(1, temp) == inf
+        break
+    end
+    temp_index = temp: proj_index(1, temp);
+    Const_type = proj_index(2,temp);
+    if Const_type == 1
+       [Q(temp_index, temp_index),Q_inv(temp_index, temp_index)]  = dev_jacob_box(z0(temp_index),proj_coefficients(2,temp_index)' ...
+            , proj_coefficients(1, temp_index)', P(temp_index), alpha);
+    elseif Const_type == 2
+        [Q(temp_index, temp_index),Q_inv(temp_index, temp_index)] = dev_jacob_ball(z0(temp_index), proj_coefficients(1,temp), P(temp_index), alpha);
+    elseif Const_type == 3
+        [Q(temp_index, temp_index),Q_inv(temp_index, temp_index)] = dev_jacob_soc(z0(temp_index), proj_coefficients(1,temp), P(temp_index), alpha);
+    end
+    %update
+    temp = proj_index(1,temp) +1;
+end
+end
+
+function [Q, Q_inv] = dev_jacob_box(z, l, u, P, alpha)
+non_activate_dimension = ~((z<=l)|(z>=u));%%%Jacobian of box should be computed after projection!. 
+lambda = non_activate_dimension*1;
+lambda_between = sqrt(abs(lambda./(1-lambda + alpha * lambda.*P)));
+lambda_inv = sqrt(abs(1./(1-lambda + alpha * lambda.*P)));
+Q = real(diag(lambda_between));
+Q_inv = diag(lambda_inv);
+end

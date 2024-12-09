@@ -1,0 +1,122 @@
+[
+  {
+    "directory": "C:\\Users\\HP\\Documents\\MATLAB\\general newtonpipg\\Dev_functions_g\\codegen\\mex\\dev_xpipg_g",
+    "command": "cl /c /Zc:__cplusplus /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /utf-8 /I \".\" /I \"C:\\Users\\HP\\Documents\\MATLAB\\general newtonpipg\\Dev_functions_g\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2024a\\extern\\include\" /I \".\" -DMODEL=dev_xpipg_g_mex -DMW_NEEDS_VERSION_H /wd4251  dev_xpipg_g_data.cpp /Fobuild\\win64\\dev_xpipg_g_data.obj",
+    "file": "dev_xpipg_g_data.cpp",
+    "output": "build/win64/dev_xpipg_g_data.obj"
+  },
+  {
+    "directory": "C:\\Users\\HP\\Documents\\MATLAB\\general newtonpipg\\Dev_functions_g\\codegen\\mex\\dev_xpipg_g",
+    "command": "cl /c /Zc:__cplusplus /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /utf-8 /I \".\" /I \"C:\\Users\\HP\\Documents\\MATLAB\\general newtonpipg\\Dev_functions_g\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2024a\\extern\\include\" /I \".\" -DMODEL=dev_xpipg_g_mex -DMW_NEEDS_VERSION_H /wd4251  rt_nonfinite.cpp /Fobuild\\win64\\rt_nonfinite.obj",
+    "file": "rt_nonfinite.cpp",
+    "output": "build/win64/rt_nonfinite.obj"
+  },
+  {
+    "directory": "C:\\Users\\HP\\Documents\\MATLAB\\general newtonpipg\\Dev_functions_g\\codegen\\mex\\dev_xpipg_g",
+    "command": "cl /c /Zc:__cplusplus /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /utf-8 /I \".\" /I \"C:\\Users\\HP\\Documents\\MATLAB\\general newtonpipg\\Dev_functions_g\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2024a\\extern\\include\" /I \".\" -DMODEL=dev_xpipg_g_mex -DMW_NEEDS_VERSION_H /wd4251  dev_xpipg_g_initialize.cpp /Fobuild\\win64\\dev_xpipg_g_initialize.obj",
+    "file": "dev_xpipg_g_initialize.cpp",
+    "output": "build/win64/dev_xpipg_g_initialize.obj"
+  },
+  {
+    "directory": "C:\\Users\\HP\\Documents\\MATLAB\\general newtonpipg\\Dev_functions_g\\codegen\\mex\\dev_xpipg_g",
+    "command": "cl /c /Zc:__cplusplus /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /utf-8 /I \".\" /I \"C:\\Users\\HP\\Documents\\MATLAB\\general newtonpipg\\Dev_functions_g\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2024a\\extern\\include\" /I \".\" -DMODEL=dev_xpipg_g_mex -DMW_NEEDS_VERSION_H /wd4251  dev_xpipg_g_terminate.cpp /Fobuild\\win64\\dev_xpipg_g_terminate.obj",
+    "file": "dev_xpipg_g_terminate.cpp",
+    "output": "build/win64/dev_xpipg_g_terminate.obj"
+  },
+  {
+    "directory": "C:\\Users\\HP\\Documents\\MATLAB\\general newtonpipg\\Dev_functions_g\\codegen\\mex\\dev_xpipg_g",
+    "command": "cl /c /Zc:__cplusplus /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /utf-8 /I \".\" /I \"C:\\Users\\HP\\Documents\\MATLAB\\general newtonpipg\\Dev_functions_g\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2024a\\extern\\include\" /I \".\" -DMODEL=dev_xpipg_g_mex -DMW_NEEDS_VERSION_H /wd4251  dev_xpipg_g.cpp /Fobuild\\win64\\dev_xpipg_g.obj",
+    "file": "dev_xpipg_g.cpp",
+    "output": "build/win64/dev_xpipg_g.obj"
+  },
+  {
+    "directory": "C:\\Users\\HP\\Documents\\MATLAB\\general newtonpipg\\Dev_functions_g\\codegen\\mex\\dev_xpipg_g",
+    "command": "cl /c /Zc:__cplusplus /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /utf-8 /I \".\" /I \"C:\\Users\\HP\\Documents\\MATLAB\\general newtonpipg\\Dev_functions_g\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2024a\\extern\\include\" /I \".\" -DMODEL=dev_xpipg_g_mex -DMW_NEEDS_VERSION_H /wd4251  tic.cpp /Fobuild\\win64\\tic.obj",
+    "file": "tic.cpp",
+    "output": "build/win64/tic.obj"
+  },
+  {
+    "directory": "C:\\Users\\HP\\Documents\\MATLAB\\general newtonpipg\\Dev_functions_g\\codegen\\mex\\dev_xpipg_g",
+    "command": "cl /c /Zc:__cplusplus /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /utf-8 /I \".\" /I \"C:\\Users\\HP\\Documents\\MATLAB\\general newtonpipg\\Dev_functions_g\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2024a\\extern\\include\" /I \".\" -DMODEL=dev_xpipg_g_mex -DMW_NEEDS_VERSION_H /wd4251  timeKeeper.cpp /Fobuild\\win64\\timeKeeper.obj",
+    "file": "timeKeeper.cpp",
+    "output": "build/win64/timeKeeper.obj"
+  },
+  {
+    "directory": "C:\\Users\\HP\\Documents\\MATLAB\\general newtonpipg\\Dev_functions_g\\codegen\\mex\\dev_xpipg_g",
+    "command": "cl /c /Zc:__cplusplus /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /utf-8 /I \".\" /I \"C:\\Users\\HP\\Documents\\MATLAB\\general newtonpipg\\Dev_functions_g\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2024a\\extern\\include\" /I \".\" -DMODEL=dev_xpipg_g_mex -DMW_NEEDS_VERSION_H /wd4251  indexShapeCheck.cpp /Fobuild\\win64\\indexShapeCheck.obj",
+    "file": "indexShapeCheck.cpp",
+    "output": "build/win64/indexShapeCheck.obj"
+  },
+  {
+    "directory": "C:\\Users\\HP\\Documents\\MATLAB\\general newtonpipg\\Dev_functions_g\\codegen\\mex\\dev_xpipg_g",
+    "command": "cl /c /Zc:__cplusplus /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /utf-8 /I \".\" /I \"C:\\Users\\HP\\Documents\\MATLAB\\general newtonpipg\\Dev_functions_g\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2024a\\extern\\include\" /I \".\" -DMODEL=dev_xpipg_g_mex -DMW_NEEDS_VERSION_H /wd4251  dev_HtZ_g.cpp /Fobuild\\win64\\dev_HtZ_g.obj",
+    "file": "dev_HtZ_g.cpp",
+    "output": "build/win64/dev_HtZ_g.obj"
+  },
+  {
+    "directory": "C:\\Users\\HP\\Documents\\MATLAB\\general newtonpipg\\Dev_functions_g\\codegen\\mex\\dev_xpipg_g",
+    "command": "cl /c /Zc:__cplusplus /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /utf-8 /I \".\" /I \"C:\\Users\\HP\\Documents\\MATLAB\\general newtonpipg\\Dev_functions_g\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2024a\\extern\\include\" /I \".\" -DMODEL=dev_xpipg_g_mex -DMW_NEEDS_VERSION_H /wd4251  dev_xpipg_onestep_g.cpp /Fobuild\\win64\\dev_xpipg_onestep_g.obj",
+    "file": "dev_xpipg_onestep_g.cpp",
+    "output": "build/win64/dev_xpipg_onestep_g.obj"
+  },
+  {
+    "directory": "C:\\Users\\HP\\Documents\\MATLAB\\general newtonpipg\\Dev_functions_g\\codegen\\mex\\dev_xpipg_g",
+    "command": "cl /c /Zc:__cplusplus /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /utf-8 /I \".\" /I \"C:\\Users\\HP\\Documents\\MATLAB\\general newtonpipg\\Dev_functions_g\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2024a\\extern\\include\" /I \".\" -DMODEL=dev_xpipg_g_mex -DMW_NEEDS_VERSION_H /wd4251  proj_D_with_affinejacobian.cpp /Fobuild\\win64\\proj_D_with_affinejacobian.obj",
+    "file": "proj_D_with_affinejacobian.cpp",
+    "output": "build/win64/proj_D_with_affinejacobian.obj"
+  },
+  {
+    "directory": "C:\\Users\\HP\\Documents\\MATLAB\\general newtonpipg\\Dev_functions_g\\codegen\\mex\\dev_xpipg_g",
+    "command": "cl /c /Zc:__cplusplus /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /utf-8 /I \".\" /I \"C:\\Users\\HP\\Documents\\MATLAB\\general newtonpipg\\Dev_functions_g\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2024a\\extern\\include\" /I \".\" -DMODEL=dev_xpipg_g_mex -DMW_NEEDS_VERSION_H /wd4251  ixfun.cpp /Fobuild\\win64\\ixfun.obj",
+    "file": "ixfun.cpp",
+    "output": "build/win64/ixfun.obj"
+  },
+  {
+    "directory": "C:\\Users\\HP\\Documents\\MATLAB\\general newtonpipg\\Dev_functions_g\\codegen\\mex\\dev_xpipg_g",
+    "command": "cl /c /Zc:__cplusplus /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /utf-8 /I \".\" /I \"C:\\Users\\HP\\Documents\\MATLAB\\general newtonpipg\\Dev_functions_g\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2024a\\extern\\include\" /I \".\" -DMODEL=dev_xpipg_g_mex -DMW_NEEDS_VERSION_H /wd4251  toc.cpp /Fobuild\\win64\\toc.obj",
+    "file": "toc.cpp",
+    "output": "build/win64/toc.obj"
+  },
+  {
+    "directory": "C:\\Users\\HP\\Documents\\MATLAB\\general newtonpipg\\Dev_functions_g\\codegen\\mex\\dev_xpipg_g",
+    "command": "cl /c /Zc:__cplusplus /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /utf-8 /I \".\" /I \"C:\\Users\\HP\\Documents\\MATLAB\\general newtonpipg\\Dev_functions_g\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2024a\\extern\\include\" /I \".\" -DMODEL=dev_xpipg_g_mex -DMW_NEEDS_VERSION_H /wd4251  interface\\_coder_dev_xpipg_g_api.cpp /Fobuild\\win64\\_coder_dev_xpipg_g_api.obj",
+    "file": "interface/_coder_dev_xpipg_g_api.cpp",
+    "output": "build/win64/_coder_dev_xpipg_g_api.obj"
+  },
+  {
+    "directory": "C:\\Users\\HP\\Documents\\MATLAB\\general newtonpipg\\Dev_functions_g\\codegen\\mex\\dev_xpipg_g",
+    "command": "cl /c /Zc:__cplusplus /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /utf-8 /I \".\" /I \"C:\\Users\\HP\\Documents\\MATLAB\\general newtonpipg\\Dev_functions_g\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2024a\\extern\\include\" /I \".\" -DMODEL=dev_xpipg_g_mex -DMW_NEEDS_VERSION_H /wd4251  interface\\_coder_dev_xpipg_g_mex.cpp /Fobuild\\win64\\_coder_dev_xpipg_g_mex.obj",
+    "file": "interface/_coder_dev_xpipg_g_mex.cpp",
+    "output": "build/win64/_coder_dev_xpipg_g_mex.obj"
+  },
+  {
+    "directory": "C:\\Users\\HP\\Documents\\MATLAB\\general newtonpipg\\Dev_functions_g\\codegen\\mex\\dev_xpipg_g",
+    "command": "cl /c /Zc:__cplusplus /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /utf-8 /I \".\" /I \"C:\\Users\\HP\\Documents\\MATLAB\\general newtonpipg\\Dev_functions_g\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2024a\\extern\\include\" /I \".\" -DMODEL=dev_xpipg_g_mex -DMW_NEEDS_VERSION_H /wd4251  dev_HZ_g.cpp /Fobuild\\win64\\dev_HZ_g.obj",
+    "file": "dev_HZ_g.cpp",
+    "output": "build/win64/dev_HZ_g.obj"
+  },
+  {
+    "directory": "C:\\Users\\HP\\Documents\\MATLAB\\general newtonpipg\\Dev_functions_g\\codegen\\mex\\dev_xpipg_g",
+    "command": "cl /c /Zc:__cplusplus /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /utf-8 /I \".\" /I \"C:\\Users\\HP\\Documents\\MATLAB\\general newtonpipg\\Dev_functions_g\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2024a\\extern\\include\" /I \".\" -DMODEL=dev_xpipg_g_mex -DMW_NEEDS_VERSION_H /wd4251  proj_D_unit_with_affinejacobian.cpp /Fobuild\\win64\\proj_D_unit_with_affinejacobian.obj",
+    "file": "proj_D_unit_with_affinejacobian.cpp",
+    "output": "build/win64/proj_D_unit_with_affinejacobian.obj"
+  },
+  {
+    "directory": "C:\\Users\\HP\\Documents\\MATLAB\\general newtonpipg\\Dev_functions_g\\codegen\\mex\\dev_xpipg_g",
+    "command": "cl /c /Zc:__cplusplus /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /utf-8 /I \".\" /I \"C:\\Users\\HP\\Documents\\MATLAB\\general newtonpipg\\Dev_functions_g\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2024a\\extern\\include\" /I \".\" -DMODEL=dev_xpipg_g_mex -DMW_NEEDS_VERSION_H /wd4251  dev_xpipg_g_mexutil.cpp /Fobuild\\win64\\dev_xpipg_g_mexutil.obj",
+    "file": "dev_xpipg_g_mexutil.cpp",
+    "output": "build/win64/dev_xpipg_g_mexutil.obj"
+  },
+  {
+    "directory": "C:\\Users\\HP\\Documents\\MATLAB\\general newtonpipg\\Dev_functions_g\\codegen\\mex\\dev_xpipg_g",
+    "command": "cl /c /Zc:__cplusplus /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /utf-8 /I \".\" /I \"C:\\Users\\HP\\Documents\\MATLAB\\general newtonpipg\\Dev_functions_g\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2024a\\extern\\include\" /I \".\" -DMODEL=dev_xpipg_g_mex -DMW_NEEDS_VERSION_H /wd4251  interface\\_coder_dev_xpipg_g_info.cpp /Fobuild\\win64\\_coder_dev_xpipg_g_info.obj",
+    "file": "interface/_coder_dev_xpipg_g_info.cpp",
+    "output": "build/win64/_coder_dev_xpipg_g_info.obj"
+  },
+  {
+    "directory": "C:\\Users\\HP\\Documents\\MATLAB\\general newtonpipg\\Dev_functions_g\\codegen\\mex\\dev_xpipg_g",
+    "command": "cl /c /Zc:__cplusplus /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /utf-8 /I \".\" /I \"C:\\Users\\HP\\Documents\\MATLAB\\general newtonpipg\\Dev_functions_g\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2024a\\extern\\include\" /I \".\" -DMODEL=dev_xpipg_g_mex -DMW_NEEDS_VERSION_H /wd4251  \"C:\\Program Files\\MATLAB\\R2024a\\extern\\version\\cpp_mexapi_version.cpp\" /Fobuild\\win64\\cpp_mexapi_version.obj",
+    "file": "C:/Program Files/MATLAB/R2024a/extern/version/cpp_mexapi_version.cpp",
+    "output": "build/win64/cpp_mexapi_version.obj"
+  }
+]

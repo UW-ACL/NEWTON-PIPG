@@ -1,0 +1,128 @@
+[
+  {
+    "directory": "C:\\Users\\HP\\Documents\\MATLAB\\Final version with PCG\\newtonpipg\\devnewton_code\\codegen\\mex\\dev_newtonpipg_pcg",
+    "command": "cl /c /Zc:__cplusplus /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /utf-8 /I \".\" /I \"C:\\Users\\HP\\Documents\\MATLAB\\Final version with PCG\\newtonpipg\\devnewton_code\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2022b\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=dev_newtonpipg_pcg_mex -DMW_NEEDS_VERSION_H /wd4251  dev_newtonpipg_pcg_data.cpp /Fobuild\\win64\\dev_newtonpipg_pcg_data.obj",
+    "file": "dev_newtonpipg_pcg_data.cpp",
+    "output": "build/win64/dev_newtonpipg_pcg_data.obj"
+  },
+  {
+    "directory": "C:\\Users\\HP\\Documents\\MATLAB\\Final version with PCG\\newtonpipg\\devnewton_code\\codegen\\mex\\dev_newtonpipg_pcg",
+    "command": "cl /c /Zc:__cplusplus /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /utf-8 /I \".\" /I \"C:\\Users\\HP\\Documents\\MATLAB\\Final version with PCG\\newtonpipg\\devnewton_code\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2022b\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=dev_newtonpipg_pcg_mex -DMW_NEEDS_VERSION_H /wd4251  rt_nonfinite.cpp /Fobuild\\win64\\rt_nonfinite.obj",
+    "file": "rt_nonfinite.cpp",
+    "output": "build/win64/rt_nonfinite.obj"
+  },
+  {
+    "directory": "C:\\Users\\HP\\Documents\\MATLAB\\Final version with PCG\\newtonpipg\\devnewton_code\\codegen\\mex\\dev_newtonpipg_pcg",
+    "command": "cl /c /Zc:__cplusplus /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /utf-8 /I \".\" /I \"C:\\Users\\HP\\Documents\\MATLAB\\Final version with PCG\\newtonpipg\\devnewton_code\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2022b\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=dev_newtonpipg_pcg_mex -DMW_NEEDS_VERSION_H /wd4251  dev_newtonpipg_pcg_initialize.cpp /Fobuild\\win64\\dev_newtonpipg_pcg_initialize.obj",
+    "file": "dev_newtonpipg_pcg_initialize.cpp",
+    "output": "build/win64/dev_newtonpipg_pcg_initialize.obj"
+  },
+  {
+    "directory": "C:\\Users\\HP\\Documents\\MATLAB\\Final version with PCG\\newtonpipg\\devnewton_code\\codegen\\mex\\dev_newtonpipg_pcg",
+    "command": "cl /c /Zc:__cplusplus /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /utf-8 /I \".\" /I \"C:\\Users\\HP\\Documents\\MATLAB\\Final version with PCG\\newtonpipg\\devnewton_code\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2022b\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=dev_newtonpipg_pcg_mex -DMW_NEEDS_VERSION_H /wd4251  dev_newtonpipg_pcg_terminate.cpp /Fobuild\\win64\\dev_newtonpipg_pcg_terminate.obj",
+    "file": "dev_newtonpipg_pcg_terminate.cpp",
+    "output": "build/win64/dev_newtonpipg_pcg_terminate.obj"
+  },
+  {
+    "directory": "C:\\Users\\HP\\Documents\\MATLAB\\Final version with PCG\\newtonpipg\\devnewton_code\\codegen\\mex\\dev_newtonpipg_pcg",
+    "command": "cl /c /Zc:__cplusplus /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /utf-8 /I \".\" /I \"C:\\Users\\HP\\Documents\\MATLAB\\Final version with PCG\\newtonpipg\\devnewton_code\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2022b\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=dev_newtonpipg_pcg_mex -DMW_NEEDS_VERSION_H /wd4251  dev_newtonpipg_pcg.cpp /Fobuild\\win64\\dev_newtonpipg_pcg.obj",
+    "file": "dev_newtonpipg_pcg.cpp",
+    "output": "build/win64/dev_newtonpipg_pcg.obj"
+  },
+  {
+    "directory": "C:\\Users\\HP\\Documents\\MATLAB\\Final version with PCG\\newtonpipg\\devnewton_code\\codegen\\mex\\dev_newtonpipg_pcg",
+    "command": "cl /c /Zc:__cplusplus /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /utf-8 /I \".\" /I \"C:\\Users\\HP\\Documents\\MATLAB\\Final version with PCG\\newtonpipg\\devnewton_code\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2022b\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=dev_newtonpipg_pcg_mex -DMW_NEEDS_VERSION_H /wd4251  tic.cpp /Fobuild\\win64\\tic.obj",
+    "file": "tic.cpp",
+    "output": "build/win64/tic.obj"
+  },
+  {
+    "directory": "C:\\Users\\HP\\Documents\\MATLAB\\Final version with PCG\\newtonpipg\\devnewton_code\\codegen\\mex\\dev_newtonpipg_pcg",
+    "command": "cl /c /Zc:__cplusplus /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /utf-8 /I \".\" /I \"C:\\Users\\HP\\Documents\\MATLAB\\Final version with PCG\\newtonpipg\\devnewton_code\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2022b\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=dev_newtonpipg_pcg_mex -DMW_NEEDS_VERSION_H /wd4251  timeKeeper.cpp /Fobuild\\win64\\timeKeeper.obj",
+    "file": "timeKeeper.cpp",
+    "output": "build/win64/timeKeeper.obj"
+  },
+  {
+    "directory": "C:\\Users\\HP\\Documents\\MATLAB\\Final version with PCG\\newtonpipg\\devnewton_code\\codegen\\mex\\dev_newtonpipg_pcg",
+    "command": "cl /c /Zc:__cplusplus /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /utf-8 /I \".\" /I \"C:\\Users\\HP\\Documents\\MATLAB\\Final version with PCG\\newtonpipg\\devnewton_code\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2022b\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=dev_newtonpipg_pcg_mex -DMW_NEEDS_VERSION_H /wd4251  dev_HZ.cpp /Fobuild\\win64\\dev_HZ.obj",
+    "file": "dev_HZ.cpp",
+    "output": "build/win64/dev_HZ.obj"
+  },
+  {
+    "directory": "C:\\Users\\HP\\Documents\\MATLAB\\Final version with PCG\\newtonpipg\\devnewton_code\\codegen\\mex\\dev_newtonpipg_pcg",
+    "command": "cl /c /Zc:__cplusplus /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /utf-8 /I \".\" /I \"C:\\Users\\HP\\Documents\\MATLAB\\Final version with PCG\\newtonpipg\\devnewton_code\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2022b\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=dev_newtonpipg_pcg_mex -DMW_NEEDS_VERSION_H /wd4251  dev_HtZ.cpp /Fobuild\\win64\\dev_HtZ.obj",
+    "file": "dev_HtZ.cpp",
+    "output": "build/win64/dev_HtZ.obj"
+  },
+  {
+    "directory": "C:\\Users\\HP\\Documents\\MATLAB\\Final version with PCG\\newtonpipg\\devnewton_code\\codegen\\mex\\dev_newtonpipg_pcg",
+    "command": "cl /c /Zc:__cplusplus /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /utf-8 /I \".\" /I \"C:\\Users\\HP\\Documents\\MATLAB\\Final version with PCG\\newtonpipg\\devnewton_code\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2022b\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=dev_newtonpipg_pcg_mex -DMW_NEEDS_VERSION_H /wd4251  dev_solve_Lv.cpp /Fobuild\\win64\\dev_solve_Lv.obj",
+    "file": "dev_solve_Lv.cpp",
+    "output": "build/win64/dev_solve_Lv.obj"
+  },
+  {
+    "directory": "C:\\Users\\HP\\Documents\\MATLAB\\Final version with PCG\\newtonpipg\\devnewton_code\\codegen\\mex\\dev_newtonpipg_pcg",
+    "command": "cl /c /Zc:__cplusplus /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /utf-8 /I \".\" /I \"C:\\Users\\HP\\Documents\\MATLAB\\Final version with PCG\\newtonpipg\\devnewton_code\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2022b\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=dev_newtonpipg_pcg_mex -DMW_NEEDS_VERSION_H /wd4251  dev_solve_LTv.cpp /Fobuild\\win64\\dev_solve_LTv.obj",
+    "file": "dev_solve_LTv.cpp",
+    "output": "build/win64/dev_solve_LTv.obj"
+  },
+  {
+    "directory": "C:\\Users\\HP\\Documents\\MATLAB\\Final version with PCG\\newtonpipg\\devnewton_code\\codegen\\mex\\dev_newtonpipg_pcg",
+    "command": "cl /c /Zc:__cplusplus /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /utf-8 /I \".\" /I \"C:\\Users\\HP\\Documents\\MATLAB\\Final version with PCG\\newtonpipg\\devnewton_code\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2022b\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=dev_newtonpipg_pcg_mex -DMW_NEEDS_VERSION_H /wd4251  dev_pcg_update.cpp /Fobuild\\win64\\dev_pcg_update.obj",
+    "file": "dev_pcg_update.cpp",
+    "output": "build/win64/dev_pcg_update.obj"
+  },
+  {
+    "directory": "C:\\Users\\HP\\Documents\\MATLAB\\Final version with PCG\\newtonpipg\\devnewton_code\\codegen\\mex\\dev_newtonpipg_pcg",
+    "command": "cl /c /Zc:__cplusplus /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /utf-8 /I \".\" /I \"C:\\Users\\HP\\Documents\\MATLAB\\Final version with PCG\\newtonpipg\\devnewton_code\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2022b\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=dev_newtonpipg_pcg_mex -DMW_NEEDS_VERSION_H /wd4251  toc.cpp /Fobuild\\win64\\toc.obj",
+    "file": "toc.cpp",
+    "output": "build/win64/toc.obj"
+  },
+  {
+    "directory": "C:\\Users\\HP\\Documents\\MATLAB\\Final version with PCG\\newtonpipg\\devnewton_code\\codegen\\mex\\dev_newtonpipg_pcg",
+    "command": "cl /c /Zc:__cplusplus /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /utf-8 /I \".\" /I \"C:\\Users\\HP\\Documents\\MATLAB\\Final version with PCG\\newtonpipg\\devnewton_code\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2022b\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=dev_newtonpipg_pcg_mex -DMW_NEEDS_VERSION_H /wd4251  interface\\_coder_dev_newtonpipg_pcg_api.cpp /Fobuild\\win64\\_coder_dev_newtonpipg_pcg_api.obj",
+    "file": "interface/_coder_dev_newtonpipg_pcg_api.cpp",
+    "output": "build/win64/_coder_dev_newtonpipg_pcg_api.obj"
+  },
+  {
+    "directory": "C:\\Users\\HP\\Documents\\MATLAB\\Final version with PCG\\newtonpipg\\devnewton_code\\codegen\\mex\\dev_newtonpipg_pcg",
+    "command": "cl /c /Zc:__cplusplus /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /utf-8 /I \".\" /I \"C:\\Users\\HP\\Documents\\MATLAB\\Final version with PCG\\newtonpipg\\devnewton_code\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2022b\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=dev_newtonpipg_pcg_mex -DMW_NEEDS_VERSION_H /wd4251  interface\\_coder_dev_newtonpipg_pcg_mex.cpp /Fobuild\\win64\\_coder_dev_newtonpipg_pcg_mex.obj",
+    "file": "interface/_coder_dev_newtonpipg_pcg_mex.cpp",
+    "output": "build/win64/_coder_dev_newtonpipg_pcg_mex.obj"
+  },
+  {
+    "directory": "C:\\Users\\HP\\Documents\\MATLAB\\Final version with PCG\\newtonpipg\\devnewton_code\\codegen\\mex\\dev_newtonpipg_pcg",
+    "command": "cl /c /Zc:__cplusplus /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /utf-8 /I \".\" /I \"C:\\Users\\HP\\Documents\\MATLAB\\Final version with PCG\\newtonpipg\\devnewton_code\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2022b\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=dev_newtonpipg_pcg_mex -DMW_NEEDS_VERSION_H /wd4251  eml_int_forloop_overflow_check.cpp /Fobuild\\win64\\eml_int_forloop_overflow_check.obj",
+    "file": "eml_int_forloop_overflow_check.cpp",
+    "output": "build/win64/eml_int_forloop_overflow_check.obj"
+  },
+  {
+    "directory": "C:\\Users\\HP\\Documents\\MATLAB\\Final version with PCG\\newtonpipg\\devnewton_code\\codegen\\mex\\dev_newtonpipg_pcg",
+    "command": "cl /c /Zc:__cplusplus /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /utf-8 /I \".\" /I \"C:\\Users\\HP\\Documents\\MATLAB\\Final version with PCG\\newtonpipg\\devnewton_code\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2022b\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=dev_newtonpipg_pcg_mex -DMW_NEEDS_VERSION_H /wd4251  dev_newtonpipgupdate.cpp /Fobuild\\win64\\dev_newtonpipgupdate.obj",
+    "file": "dev_newtonpipgupdate.cpp",
+    "output": "build/win64/dev_newtonpipgupdate.obj"
+  },
+  {
+    "directory": "C:\\Users\\HP\\Documents\\MATLAB\\Final version with PCG\\newtonpipg\\devnewton_code\\codegen\\mex\\dev_newtonpipg_pcg",
+    "command": "cl /c /Zc:__cplusplus /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /utf-8 /I \".\" /I \"C:\\Users\\HP\\Documents\\MATLAB\\Final version with PCG\\newtonpipg\\devnewton_code\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2022b\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=dev_newtonpipg_pcg_mex -DMW_NEEDS_VERSION_H /wd4251  chol.cpp /Fobuild\\win64\\chol.obj",
+    "file": "chol.cpp",
+    "output": "build/win64/chol.obj"
+  },
+  {
+    "directory": "C:\\Users\\HP\\Documents\\MATLAB\\Final version with PCG\\newtonpipg\\devnewton_code\\codegen\\mex\\dev_newtonpipg_pcg",
+    "command": "cl /c /Zc:__cplusplus /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /utf-8 /I \".\" /I \"C:\\Users\\HP\\Documents\\MATLAB\\Final version with PCG\\newtonpipg\\devnewton_code\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2022b\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=dev_newtonpipg_pcg_mex -DMW_NEEDS_VERSION_H /wd4251  sparse.cpp /Fobuild\\win64\\sparse.obj",
+    "file": "sparse.cpp",
+    "output": "build/win64/sparse.obj"
+  },
+  {
+    "directory": "C:\\Users\\HP\\Documents\\MATLAB\\Final version with PCG\\newtonpipg\\devnewton_code\\codegen\\mex\\dev_newtonpipg_pcg",
+    "command": "cl /c /Zc:__cplusplus /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /utf-8 /I \".\" /I \"C:\\Users\\HP\\Documents\\MATLAB\\Final version with PCG\\newtonpipg\\devnewton_code\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2022b\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=dev_newtonpipg_pcg_mex -DMW_NEEDS_VERSION_H /wd4251  interface\\_coder_dev_newtonpipg_pcg_info.cpp /Fobuild\\win64\\_coder_dev_newtonpipg_pcg_info.obj",
+    "file": "interface/_coder_dev_newtonpipg_pcg_info.cpp",
+    "output": "build/win64/_coder_dev_newtonpipg_pcg_info.obj"
+  },
+  {
+    "directory": "C:\\Users\\HP\\Documents\\MATLAB\\Final version with PCG\\newtonpipg\\devnewton_code\\codegen\\mex\\dev_newtonpipg_pcg",
+    "command": "cl /c /Zc:__cplusplus /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /utf-8 /I \".\" /I \"C:\\Users\\HP\\Documents\\MATLAB\\Final version with PCG\\newtonpipg\\devnewton_code\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2022b\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=dev_newtonpipg_pcg_mex -DMW_NEEDS_VERSION_H /wd4251  \"C:\\Program Files\\MATLAB\\R2022b\\extern\\version\\cpp_mexapi_version.cpp\" /Fobuild\\win64\\cpp_mexapi_version.obj",
+    "file": "C:/Program Files/MATLAB/R2022b/extern/version/cpp_mexapi_version.cpp",
+    "output": "build/win64/cpp_mexapi_version.obj"
+  }
+]

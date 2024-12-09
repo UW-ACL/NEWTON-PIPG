@@ -1,0 +1,90 @@
+# CompilerName=msvcpp170
+# Mode=optim
+ninja_required_version = 1.3
+
+# Basic folders
+root = .
+builddir = $root\build\win64
+matlabdir = C:\Program Files\MATLAB\R2024a
+startdir = C:\Users\HP\Documents\MATLAB\general newtonpipg\pipg_newton_pipg_withtimer
+
+# Toolchain information
+cc = cl
+cxx = cl
+linker = link
+linkerxx = link
+
+cflags =  /c /Zc:__cplusplus /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /utf-8 /I "$root" /I "$startdir" /I "$root\interface" /I "$matlabdir\extern\include" /I "." -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=dev_newtonpipg_compare_withtimer_mex -DMW_NEEDS_VERSION_H /wd4251 
+
+cxxflags =   /c /Zc:__cplusplus /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /utf-8 /I "$root" /I "$startdir" /I "$root\interface" /I "$matlabdir\extern\include" /I "." -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=dev_newtonpipg_compare_withtimer_mex -DMW_NEEDS_VERSION_H /wd4251 
+
+ldflags =  /nologo    /DLL /LIBPATH:"$matlabdir\extern\lib\win64\microsoft" libmx.lib libmex.lib libmat.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib libMatlabDataArray.lib libMatlabEngine.lib  /out:"dev_newtonpipg_compare_withtimer_mex.mexw64" /LIBPATH:"$matlabdir\extern\lib\win64\microsoft" libmwblas.lib libmwlapack.lib libemlrt.lib libcovrt.lib libut.lib libmwmathutil.lib 
+
+linkobjs = 
+
+# Build Rules
+rule cc
+    command = $cc $cflags $in /Fo$out
+
+rule cxx
+    command = $cxx $cxxflags $in /Fo$out
+
+rule link
+    command = $linker @$out.rsp $linkobjs $ldflags
+    rspfile = $out.rsp
+    rspfile_content = $in
+
+rule linkxx
+    command = $linkerxx $in $linkobjs $ldflags
+
+# Build
+build $builddir\dev_newtonpipg_compare_withtimer_data.obj : cxx $root\dev_newtonpipg_compare_withtimer_data.cpp
+build $builddir\rt_nonfinite.obj : cxx $root\rt_nonfinite.cpp
+build $builddir\dev_newtonpipg_compare_withtimer_initialize.obj : cxx $root\dev_newtonpipg_compare_withtimer_initialize.cpp
+build $builddir\dev_newtonpipg_compare_withtimer_terminate.obj : cxx $root\dev_newtonpipg_compare_withtimer_terminate.cpp
+build $builddir\dev_newtonpipg_compare_withtimer.obj : cxx $root\dev_newtonpipg_compare_withtimer.cpp
+build $builddir\dev_HZ_g.obj : cxx $root\dev_HZ_g.cpp
+build $builddir\indexShapeCheck.obj : cxx $root\indexShapeCheck.cpp
+build $builddir\dev_HtZ_g.obj : cxx $root\dev_HtZ_g.cpp
+build $builddir\tic.obj : cxx $root\tic.cpp
+build $builddir\timeKeeper.obj : cxx $root\timeKeeper.cpp
+build $builddir\dev_xpipg_onestep_g.obj : cxx $root\dev_xpipg_onestep_g.cpp
+build $builddir\proj_D_unit_with_affinejacobian.obj : cxx $root\proj_D_unit_with_affinejacobian.cpp
+build $builddir\ixfun.obj : cxx $root\ixfun.cpp
+build $builddir\norm.obj : cxx $root\norm.cpp
+build $builddir\mpower.obj : cxx $root\mpower.cpp
+build $builddir\dev_g_newton_pipg_update.obj : cxx $root\dev_g_newton_pipg_update.cpp
+build $builddir\dev_S_inv_g.obj : cxx $root\dev_S_inv_g.cpp
+build $builddir\diag.obj : cxx $root\diag.cpp
+build $builddir\dev_jacob_ball.obj : cxx $root\dev_jacob_ball.cpp
+build $builddir\eye.obj : cxx $root\eye.cpp
+build $builddir\eig.obj : cxx $root\eig.cpp
+build $builddir\warning.obj : cxx $root\warning.cpp
+build $builddir\eigSkewHermitianStandard.obj : cxx $root\eigSkewHermitianStandard.cpp
+build $builddir\dev_jacob_soc.obj : cxx $root\dev_jacob_soc.cpp
+build $builddir\mtimes.obj : cxx $root\mtimes.cpp
+build $builddir\dev_H_sinv_Ht.obj : cxx $root\dev_H_sinv_Ht.cpp
+build $builddir\power.obj : cxx $root\power.cpp
+build $builddir\dev_g_multiply_symmetric.obj : cxx $root\dev_g_multiply_symmetric.cpp
+build $builddir\find.obj : cxx $root\find.cpp
+build $builddir\sub2ind.obj : cxx $root\sub2ind.cpp
+build $builddir\dev_cholesky_special.obj : cxx $root\dev_cholesky_special.cpp
+build $builddir\dev_g_Q_multi_vector.obj : cxx $root\dev_g_Q_multi_vector.cpp
+build $builddir\dev_Y_multi_vector.obj : cxx $root\dev_Y_multi_vector.cpp
+build $builddir\dev_solve_Lv.obj : cxx $root\dev_solve_Lv.cpp
+build $builddir\dev_solve_LTv.obj : cxx $root\dev_solve_LTv.cpp
+build $builddir\toc.obj : cxx $root\toc.cpp
+build $builddir\_coder_dev_newtonpipg_compare_withtimer_api.obj : cxx $root\interface\_coder_dev_newtonpipg_compare_withtimer_api.cpp
+build $builddir\_coder_dev_newtonpipg_compare_withtimer_mex.obj : cxx $root\interface\_coder_dev_newtonpipg_compare_withtimer_mex.cpp
+build $builddir\sqrt.obj : cxx $root\sqrt.cpp
+build $builddir\dev_g_A_Q_D.obj : cxx $root\dev_g_A_Q_D.cpp
+build $builddir\chol.obj : cxx $root\chol.cpp
+build $builddir\div.obj : cxx $root\div.cpp
+build $builddir\eml_mtimes_helper.obj : cxx $root\eml_mtimes_helper.cpp
+build $builddir\dev_A_Q_D_unit.obj : cxx $root\dev_A_Q_D_unit.cpp
+build $builddir\dev_newtonpipg_compare_withtimer_mexutil.obj : cxx $root\dev_newtonpipg_compare_withtimer_mexutil.cpp
+build $builddir\_coder_dev_newtonpipg_compare_withtimer_info.obj : cxx $root\interface\_coder_dev_newtonpipg_compare_withtimer_info.cpp
+build $builddir\cpp_mexapi_version.obj : cxx $matlabdir\extern\version\cpp_mexapi_version.cpp
+
+# Link
+build $root\dev_newtonpipg_compare_withtimer_mex.mexw64 : linkxx $builddir\dev_newtonpipg_compare_withtimer_data.obj $builddir\rt_nonfinite.obj $builddir\dev_newtonpipg_compare_withtimer_initialize.obj $builddir\dev_newtonpipg_compare_withtimer_terminate.obj $builddir\dev_newtonpipg_compare_withtimer.obj $builddir\dev_HZ_g.obj $builddir\indexShapeCheck.obj $builddir\dev_HtZ_g.obj $builddir\tic.obj $builddir\timeKeeper.obj $builddir\dev_xpipg_onestep_g.obj $builddir\proj_D_unit_with_affinejacobian.obj $builddir\ixfun.obj $builddir\norm.obj $builddir\mpower.obj $builddir\dev_g_newton_pipg_update.obj $builddir\dev_S_inv_g.obj $builddir\diag.obj $builddir\dev_jacob_ball.obj $builddir\eye.obj $builddir\eig.obj $builddir\warning.obj $builddir\eigSkewHermitianStandard.obj $builddir\dev_jacob_soc.obj $builddir\mtimes.obj $builddir\dev_H_sinv_Ht.obj $builddir\power.obj $builddir\dev_g_multiply_symmetric.obj $builddir\find.obj $builddir\sub2ind.obj $builddir\dev_cholesky_special.obj $builddir\dev_g_Q_multi_vector.obj $builddir\dev_Y_multi_vector.obj $builddir\dev_solve_Lv.obj $builddir\dev_solve_LTv.obj $builddir\toc.obj $builddir\_coder_dev_newtonpipg_compare_withtimer_api.obj $builddir\_coder_dev_newtonpipg_compare_withtimer_mex.obj $builddir\sqrt.obj $builddir\dev_g_A_Q_D.obj $builddir\chol.obj $builddir\div.obj $builddir\eml_mtimes_helper.obj $builddir\dev_A_Q_D_unit.obj $builddir\dev_newtonpipg_compare_withtimer_mexutil.obj $builddir\_coder_dev_newtonpipg_compare_withtimer_info.obj $builddir\cpp_mexapi_version.obj 

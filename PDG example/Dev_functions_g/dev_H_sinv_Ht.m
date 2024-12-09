@@ -1,0 +1,79 @@
+function Y = dev_H_sinv_Ht(A, Q, proj_index_all, nx)
+%Remember the symetric in multiplication.
+% the Y matrix is a 4 dimensional matrix. t is for the t th row HsHt and
+% the third index is for the location. 1 for diag and 2 for the subdiag
+% below the diag.
+% Y(:, :, 2, t) is the block on tth row and t-1 column
+% hense Y(:, :, 2, 1) = 0, t has realization for only t >0
+
+r_A = size(A, 1);
+T = size(A,3);
+Y = zeros(r_A, r_A, 2, T);
+
+
+for i = 1:T
+    % Y(:,:,1, i) = dev_g_multiply_symmetric(A(:, :, i), A(:, :,i)');
+    Y(:,:,1,i) = dev_Y_Q_Q_D_sum_unit(dev_g_multiply_symmetric(A(:, :, i), A(:, :,i)'), Q(:,:, i+1), proj_index_all(:, :, i+1), nx);
+    if i == 1
+        continue
+    end
+    Y(:,1:nx,2,i) = dev_A_Q_D_unit(A(:, :, i),Q(:, :, i)', proj_index_all(:, :,i), nx); %Remember to transpose Q
+end
+
+
+end
+
+
+function Y = dev_Y_Q_Q_D_sum_unit(Y, Q, proj_index,L)
+%WE want to compute the innerproduct of Q and Q'.
+
+[~, c_Q]  = size(Q);
+out_temp = zeros(L, L);
+temp = 1;
+flag = 0;
+
+while temp <= c_Q
+    if proj_index(1, temp) == inf
+        break
+    end
+
+    if proj_index(1, temp)>=L
+        Const_type = proj_index(2,temp);
+        flag = 1;
+
+        if Const_type == 1
+            % Q(temp_index, temp_index)  = dev_jacob_box(z0(temp_index),proj_coefficients(2,temp_index)' ...
+            %      , proj_coefficients(1, temp_index)', P(temp_index), alpha);
+
+            out_temp(temp: L, temp: L) = diag(diag(Q(temp: L, temp: L)).^2); % to save computation.weird
+            for j = temp:min(L,proj_index(1, temp) )
+                Y(j, j) = Y(j,j) + out_temp(j, j);
+            end
+        elseif Const_type == 2 ||Const_type == 3
+            Y(temp: L, temp: L) = Y(temp: L, temp: L) + dev_g_multiply_symmetric(Q(temp: L, temp: L), Q(temp: L, temp: L)');% a faster way is to treat diagbonal cases vs dense cases differently.
+            % Q(temp_index, temp_index) = dev_jacob_ball(z0(temp_index), proj_coefficients(1,temp), P(temp_index), alpha);
+        end
+    else
+        Const_type = proj_index(2,temp);
+
+        if Const_type == 1
+            % Q(temp_index, temp_index)  = dev_jacob_box(z0(temp_index),proj_coefficients(2,temp_index)' ...
+            %      , proj_coefficients(1, temp_index)', P(temp_index), alpha);
+
+            out_temp(temp: proj_index(1, temp), temp: proj_index(1, temp)) = diag(diag(Q(temp: proj_index(1, temp), temp: proj_index(1, temp))).^2); % to save computation.weird
+            for j = temp:min(L,proj_index(1, temp) )
+                Y(j, j) = Y(j,j) + out_temp(j, j);
+            end
+        elseif Const_type == 2 ||Const_type == 3
+            Y(temp: proj_index(1, temp), temp: proj_index(1, temp)) = Y(temp: proj_index(1, temp), temp: proj_index(1, temp)) + dev_g_multiply_symmetric(Q(temp: proj_index(1, temp), temp: proj_index(1, temp)), Q(temp: proj_index(1, temp), temp: proj_index(1, temp))');% a faster way is to treat diagbonal cases vs dense cases differently.
+            % Q(temp_index, temp_index) = dev_jacob_ball(z0(temp_index), proj_coefficients(1,temp), P(temp_index), alpha);
+        end
+    end
+
+    %update
+    if flag == 1
+        break
+    end
+    temp = proj_index(1,temp) +1;
+end
+end

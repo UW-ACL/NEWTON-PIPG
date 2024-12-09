@@ -1,0 +1,284 @@
+[
+  {
+    "directory": "C:\\Users\\HP\\Documents\\MATLAB\\general newtonpipg\\pipg_newton_pipg_withtimer\\codegen\\mex\\dev_newtonpipg_compare_withtimer",
+    "command": "cl /c /Zc:__cplusplus /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /utf-8 /I \".\" /I \"C:\\Users\\HP\\Documents\\MATLAB\\general newtonpipg\\pipg_newton_pipg_withtimer\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2024a\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=dev_newtonpipg_compare_withtimer_mex -DMW_NEEDS_VERSION_H /wd4251  dev_newtonpipg_compare_withtimer_data.cpp /Fobuild\\win64\\dev_newtonpipg_compare_withtimer_data.obj",
+    "file": "dev_newtonpipg_compare_withtimer_data.cpp",
+    "output": "build/win64/dev_newtonpipg_compare_withtimer_data.obj"
+  },
+  {
+    "directory": "C:\\Users\\HP\\Documents\\MATLAB\\general newtonpipg\\pipg_newton_pipg_withtimer\\codegen\\mex\\dev_newtonpipg_compare_withtimer",
+    "command": "cl /c /Zc:__cplusplus /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /utf-8 /I \".\" /I \"C:\\Users\\HP\\Documents\\MATLAB\\general newtonpipg\\pipg_newton_pipg_withtimer\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2024a\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=dev_newtonpipg_compare_withtimer_mex -DMW_NEEDS_VERSION_H /wd4251  rt_nonfinite.cpp /Fobuild\\win64\\rt_nonfinite.obj",
+    "file": "rt_nonfinite.cpp",
+    "output": "build/win64/rt_nonfinite.obj"
+  },
+  {
+    "directory": "C:\\Users\\HP\\Documents\\MATLAB\\general newtonpipg\\pipg_newton_pipg_withtimer\\codegen\\mex\\dev_newtonpipg_compare_withtimer",
+    "command": "cl /c /Zc:__cplusplus /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /utf-8 /I \".\" /I \"C:\\Users\\HP\\Documents\\MATLAB\\general newtonpipg\\pipg_newton_pipg_withtimer\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2024a\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=dev_newtonpipg_compare_withtimer_mex -DMW_NEEDS_VERSION_H /wd4251  dev_newtonpipg_compare_withtimer_initialize.cpp /Fobuild\\win64\\dev_newtonpipg_compare_withtimer_initialize.obj",
+    "file": "dev_newtonpipg_compare_withtimer_initialize.cpp",
+    "output": "build/win64/dev_newtonpipg_compare_withtimer_initialize.obj"
+  },
+  {
+    "directory": "C:\\Users\\HP\\Documents\\MATLAB\\general newtonpipg\\pipg_newton_pipg_withtimer\\codegen\\mex\\dev_newtonpipg_compare_withtimer",
+    "command": "cl /c /Zc:__cplusplus /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /utf-8 /I \".\" /I \"C:\\Users\\HP\\Documents\\MATLAB\\general newtonpipg\\pipg_newton_pipg_withtimer\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2024a\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=dev_newtonpipg_compare_withtimer_mex -DMW_NEEDS_VERSION_H /wd4251  dev_newtonpipg_compare_withtimer_terminate.cpp /Fobuild\\win64\\dev_newtonpipg_compare_withtimer_terminate.obj",
+    "file": "dev_newtonpipg_compare_withtimer_terminate.cpp",
+    "output": "build/win64/dev_newtonpipg_compare_withtimer_terminate.obj"
+  },
+  {
+    "directory": "C:\\Users\\HP\\Documents\\MATLAB\\general newtonpipg\\pipg_newton_pipg_withtimer\\codegen\\mex\\dev_newtonpipg_compare_withtimer",
+    "command": "cl /c /Zc:__cplusplus /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /utf-8 /I \".\" /I \"C:\\Users\\HP\\Documents\\MATLAB\\general newtonpipg\\pipg_newton_pipg_withtimer\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2024a\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=dev_newtonpipg_compare_withtimer_mex -DMW_NEEDS_VERSION_H /wd4251  dev_newtonpipg_compare_withtimer.cpp /Fobuild\\win64\\dev_newtonpipg_compare_withtimer.obj",
+    "file": "dev_newtonpipg_compare_withtimer.cpp",
+    "output": "build/win64/dev_newtonpipg_compare_withtimer.obj"
+  },
+  {
+    "directory": "C:\\Users\\HP\\Documents\\MATLAB\\general newtonpipg\\pipg_newton_pipg_withtimer\\codegen\\mex\\dev_newtonpipg_compare_withtimer",
+    "command": "cl /c /Zc:__cplusplus /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /utf-8 /I \".\" /I \"C:\\Users\\HP\\Documents\\MATLAB\\general newtonpipg\\pipg_newton_pipg_withtimer\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2024a\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=dev_newtonpipg_compare_withtimer_mex -DMW_NEEDS_VERSION_H /wd4251  dev_HZ_g.cpp /Fobuild\\win64\\dev_HZ_g.obj",
+    "file": "dev_HZ_g.cpp",
+    "output": "build/win64/dev_HZ_g.obj"
+  },
+  {
+    "directory": "C:\\Users\\HP\\Documents\\MATLAB\\general newtonpipg\\pipg_newton_pipg_withtimer\\codegen\\mex\\dev_newtonpipg_compare_withtimer",
+    "command": "cl /c /Zc:__cplusplus /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /utf-8 /I \".\" /I \"C:\\Users\\HP\\Documents\\MATLAB\\general newtonpipg\\pipg_newton_pipg_withtimer\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2024a\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=dev_newtonpipg_compare_withtimer_mex -DMW_NEEDS_VERSION_H /wd4251  indexShapeCheck.cpp /Fobuild\\win64\\indexShapeCheck.obj",
+    "file": "indexShapeCheck.cpp",
+    "output": "build/win64/indexShapeCheck.obj"
+  },
+  {
+    "directory": "C:\\Users\\HP\\Documents\\MATLAB\\general newtonpipg\\pipg_newton_pipg_withtimer\\codegen\\mex\\dev_newtonpipg_compare_withtimer",
+    "command": "cl /c /Zc:__cplusplus /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /utf-8 /I \".\" /I \"C:\\Users\\HP\\Documents\\MATLAB\\general newtonpipg\\pipg_newton_pipg_withtimer\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2024a\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=dev_newtonpipg_compare_withtimer_mex -DMW_NEEDS_VERSION_H /wd4251  dev_HtZ_g.cpp /Fobuild\\win64\\dev_HtZ_g.obj",
+    "file": "dev_HtZ_g.cpp",
+    "output": "build/win64/dev_HtZ_g.obj"
+  },
+  {
+    "directory": "C:\\Users\\HP\\Documents\\MATLAB\\general newtonpipg\\pipg_newton_pipg_withtimer\\codegen\\mex\\dev_newtonpipg_compare_withtimer",
+    "command": "cl /c /Zc:__cplusplus /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /utf-8 /I \".\" /I \"C:\\Users\\HP\\Documents\\MATLAB\\general newtonpipg\\pipg_newton_pipg_withtimer\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2024a\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=dev_newtonpipg_compare_withtimer_mex -DMW_NEEDS_VERSION_H /wd4251  tic.cpp /Fobuild\\win64\\tic.obj",
+    "file": "tic.cpp",
+    "output": "build/win64/tic.obj"
+  },
+  {
+    "directory": "C:\\Users\\HP\\Documents\\MATLAB\\general newtonpipg\\pipg_newton_pipg_withtimer\\codegen\\mex\\dev_newtonpipg_compare_withtimer",
+    "command": "cl /c /Zc:__cplusplus /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /utf-8 /I \".\" /I \"C:\\Users\\HP\\Documents\\MATLAB\\general newtonpipg\\pipg_newton_pipg_withtimer\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2024a\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=dev_newtonpipg_compare_withtimer_mex -DMW_NEEDS_VERSION_H /wd4251  timeKeeper.cpp /Fobuild\\win64\\timeKeeper.obj",
+    "file": "timeKeeper.cpp",
+    "output": "build/win64/timeKeeper.obj"
+  },
+  {
+    "directory": "C:\\Users\\HP\\Documents\\MATLAB\\general newtonpipg\\pipg_newton_pipg_withtimer\\codegen\\mex\\dev_newtonpipg_compare_withtimer",
+    "command": "cl /c /Zc:__cplusplus /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /utf-8 /I \".\" /I \"C:\\Users\\HP\\Documents\\MATLAB\\general newtonpipg\\pipg_newton_pipg_withtimer\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2024a\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=dev_newtonpipg_compare_withtimer_mex -DMW_NEEDS_VERSION_H /wd4251  dev_xpipg_onestep_g.cpp /Fobuild\\win64\\dev_xpipg_onestep_g.obj",
+    "file": "dev_xpipg_onestep_g.cpp",
+    "output": "build/win64/dev_xpipg_onestep_g.obj"
+  },
+  {
+    "directory": "C:\\Users\\HP\\Documents\\MATLAB\\general newtonpipg\\pipg_newton_pipg_withtimer\\codegen\\mex\\dev_newtonpipg_compare_withtimer",
+    "command": "cl /c /Zc:__cplusplus /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /utf-8 /I \".\" /I \"C:\\Users\\HP\\Documents\\MATLAB\\general newtonpipg\\pipg_newton_pipg_withtimer\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2024a\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=dev_newtonpipg_compare_withtimer_mex -DMW_NEEDS_VERSION_H /wd4251  proj_D_unit_with_affinejacobian.cpp /Fobuild\\win64\\proj_D_unit_with_affinejacobian.obj",
+    "file": "proj_D_unit_with_affinejacobian.cpp",
+    "output": "build/win64/proj_D_unit_with_affinejacobian.obj"
+  },
+  {
+    "directory": "C:\\Users\\HP\\Documents\\MATLAB\\general newtonpipg\\pipg_newton_pipg_withtimer\\codegen\\mex\\dev_newtonpipg_compare_withtimer",
+    "command": "cl /c /Zc:__cplusplus /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /utf-8 /I \".\" /I \"C:\\Users\\HP\\Documents\\MATLAB\\general newtonpipg\\pipg_newton_pipg_withtimer\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2024a\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=dev_newtonpipg_compare_withtimer_mex -DMW_NEEDS_VERSION_H /wd4251  ixfun.cpp /Fobuild\\win64\\ixfun.obj",
+    "file": "ixfun.cpp",
+    "output": "build/win64/ixfun.obj"
+  },
+  {
+    "directory": "C:\\Users\\HP\\Documents\\MATLAB\\general newtonpipg\\pipg_newton_pipg_withtimer\\codegen\\mex\\dev_newtonpipg_compare_withtimer",
+    "command": "cl /c /Zc:__cplusplus /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /utf-8 /I \".\" /I \"C:\\Users\\HP\\Documents\\MATLAB\\general newtonpipg\\pipg_newton_pipg_withtimer\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2024a\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=dev_newtonpipg_compare_withtimer_mex -DMW_NEEDS_VERSION_H /wd4251  norm.cpp /Fobuild\\win64\\norm.obj",
+    "file": "norm.cpp",
+    "output": "build/win64/norm.obj"
+  },
+  {
+    "directory": "C:\\Users\\HP\\Documents\\MATLAB\\general newtonpipg\\pipg_newton_pipg_withtimer\\codegen\\mex\\dev_newtonpipg_compare_withtimer",
+    "command": "cl /c /Zc:__cplusplus /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /utf-8 /I \".\" /I \"C:\\Users\\HP\\Documents\\MATLAB\\general newtonpipg\\pipg_newton_pipg_withtimer\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2024a\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=dev_newtonpipg_compare_withtimer_mex -DMW_NEEDS_VERSION_H /wd4251  mpower.cpp /Fobuild\\win64\\mpower.obj",
+    "file": "mpower.cpp",
+    "output": "build/win64/mpower.obj"
+  },
+  {
+    "directory": "C:\\Users\\HP\\Documents\\MATLAB\\general newtonpipg\\pipg_newton_pipg_withtimer\\codegen\\mex\\dev_newtonpipg_compare_withtimer",
+    "command": "cl /c /Zc:__cplusplus /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /utf-8 /I \".\" /I \"C:\\Users\\HP\\Documents\\MATLAB\\general newtonpipg\\pipg_newton_pipg_withtimer\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2024a\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=dev_newtonpipg_compare_withtimer_mex -DMW_NEEDS_VERSION_H /wd4251  dev_g_newton_pipg_update.cpp /Fobuild\\win64\\dev_g_newton_pipg_update.obj",
+    "file": "dev_g_newton_pipg_update.cpp",
+    "output": "build/win64/dev_g_newton_pipg_update.obj"
+  },
+  {
+    "directory": "C:\\Users\\HP\\Documents\\MATLAB\\general newtonpipg\\pipg_newton_pipg_withtimer\\codegen\\mex\\dev_newtonpipg_compare_withtimer",
+    "command": "cl /c /Zc:__cplusplus /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /utf-8 /I \".\" /I \"C:\\Users\\HP\\Documents\\MATLAB\\general newtonpipg\\pipg_newton_pipg_withtimer\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2024a\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=dev_newtonpipg_compare_withtimer_mex -DMW_NEEDS_VERSION_H /wd4251  dev_S_inv_g.cpp /Fobuild\\win64\\dev_S_inv_g.obj",
+    "file": "dev_S_inv_g.cpp",
+    "output": "build/win64/dev_S_inv_g.obj"
+  },
+  {
+    "directory": "C:\\Users\\HP\\Documents\\MATLAB\\general newtonpipg\\pipg_newton_pipg_withtimer\\codegen\\mex\\dev_newtonpipg_compare_withtimer",
+    "command": "cl /c /Zc:__cplusplus /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /utf-8 /I \".\" /I \"C:\\Users\\HP\\Documents\\MATLAB\\general newtonpipg\\pipg_newton_pipg_withtimer\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2024a\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=dev_newtonpipg_compare_withtimer_mex -DMW_NEEDS_VERSION_H /wd4251  diag.cpp /Fobuild\\win64\\diag.obj",
+    "file": "diag.cpp",
+    "output": "build/win64/diag.obj"
+  },
+  {
+    "directory": "C:\\Users\\HP\\Documents\\MATLAB\\general newtonpipg\\pipg_newton_pipg_withtimer\\codegen\\mex\\dev_newtonpipg_compare_withtimer",
+    "command": "cl /c /Zc:__cplusplus /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /utf-8 /I \".\" /I \"C:\\Users\\HP\\Documents\\MATLAB\\general newtonpipg\\pipg_newton_pipg_withtimer\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2024a\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=dev_newtonpipg_compare_withtimer_mex -DMW_NEEDS_VERSION_H /wd4251  dev_jacob_ball.cpp /Fobuild\\win64\\dev_jacob_ball.obj",
+    "file": "dev_jacob_ball.cpp",
+    "output": "build/win64/dev_jacob_ball.obj"
+  },
+  {
+    "directory": "C:\\Users\\HP\\Documents\\MATLAB\\general newtonpipg\\pipg_newton_pipg_withtimer\\codegen\\mex\\dev_newtonpipg_compare_withtimer",
+    "command": "cl /c /Zc:__cplusplus /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /utf-8 /I \".\" /I \"C:\\Users\\HP\\Documents\\MATLAB\\general newtonpipg\\pipg_newton_pipg_withtimer\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2024a\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=dev_newtonpipg_compare_withtimer_mex -DMW_NEEDS_VERSION_H /wd4251  eye.cpp /Fobuild\\win64\\eye.obj",
+    "file": "eye.cpp",
+    "output": "build/win64/eye.obj"
+  },
+  {
+    "directory": "C:\\Users\\HP\\Documents\\MATLAB\\general newtonpipg\\pipg_newton_pipg_withtimer\\codegen\\mex\\dev_newtonpipg_compare_withtimer",
+    "command": "cl /c /Zc:__cplusplus /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /utf-8 /I \".\" /I \"C:\\Users\\HP\\Documents\\MATLAB\\general newtonpipg\\pipg_newton_pipg_withtimer\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2024a\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=dev_newtonpipg_compare_withtimer_mex -DMW_NEEDS_VERSION_H /wd4251  eig.cpp /Fobuild\\win64\\eig.obj",
+    "file": "eig.cpp",
+    "output": "build/win64/eig.obj"
+  },
+  {
+    "directory": "C:\\Users\\HP\\Documents\\MATLAB\\general newtonpipg\\pipg_newton_pipg_withtimer\\codegen\\mex\\dev_newtonpipg_compare_withtimer",
+    "command": "cl /c /Zc:__cplusplus /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /utf-8 /I \".\" /I \"C:\\Users\\HP\\Documents\\MATLAB\\general newtonpipg\\pipg_newton_pipg_withtimer\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2024a\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=dev_newtonpipg_compare_withtimer_mex -DMW_NEEDS_VERSION_H /wd4251  warning.cpp /Fobuild\\win64\\warning.obj",
+    "file": "warning.cpp",
+    "output": "build/win64/warning.obj"
+  },
+  {
+    "directory": "C:\\Users\\HP\\Documents\\MATLAB\\general newtonpipg\\pipg_newton_pipg_withtimer\\codegen\\mex\\dev_newtonpipg_compare_withtimer",
+    "command": "cl /c /Zc:__cplusplus /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /utf-8 /I \".\" /I \"C:\\Users\\HP\\Documents\\MATLAB\\general newtonpipg\\pipg_newton_pipg_withtimer\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2024a\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=dev_newtonpipg_compare_withtimer_mex -DMW_NEEDS_VERSION_H /wd4251  eigSkewHermitianStandard.cpp /Fobuild\\win64\\eigSkewHermitianStandard.obj",
+    "file": "eigSkewHermitianStandard.cpp",
+    "output": "build/win64/eigSkewHermitianStandard.obj"
+  },
+  {
+    "directory": "C:\\Users\\HP\\Documents\\MATLAB\\general newtonpipg\\pipg_newton_pipg_withtimer\\codegen\\mex\\dev_newtonpipg_compare_withtimer",
+    "command": "cl /c /Zc:__cplusplus /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /utf-8 /I \".\" /I \"C:\\Users\\HP\\Documents\\MATLAB\\general newtonpipg\\pipg_newton_pipg_withtimer\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2024a\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=dev_newtonpipg_compare_withtimer_mex -DMW_NEEDS_VERSION_H /wd4251  dev_jacob_soc.cpp /Fobuild\\win64\\dev_jacob_soc.obj",
+    "file": "dev_jacob_soc.cpp",
+    "output": "build/win64/dev_jacob_soc.obj"
+  },
+  {
+    "directory": "C:\\Users\\HP\\Documents\\MATLAB\\general newtonpipg\\pipg_newton_pipg_withtimer\\codegen\\mex\\dev_newtonpipg_compare_withtimer",
+    "command": "cl /c /Zc:__cplusplus /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /utf-8 /I \".\" /I \"C:\\Users\\HP\\Documents\\MATLAB\\general newtonpipg\\pipg_newton_pipg_withtimer\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2024a\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=dev_newtonpipg_compare_withtimer_mex -DMW_NEEDS_VERSION_H /wd4251  mtimes.cpp /Fobuild\\win64\\mtimes.obj",
+    "file": "mtimes.cpp",
+    "output": "build/win64/mtimes.obj"
+  },
+  {
+    "directory": "C:\\Users\\HP\\Documents\\MATLAB\\general newtonpipg\\pipg_newton_pipg_withtimer\\codegen\\mex\\dev_newtonpipg_compare_withtimer",
+    "command": "cl /c /Zc:__cplusplus /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /utf-8 /I \".\" /I \"C:\\Users\\HP\\Documents\\MATLAB\\general newtonpipg\\pipg_newton_pipg_withtimer\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2024a\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=dev_newtonpipg_compare_withtimer_mex -DMW_NEEDS_VERSION_H /wd4251  dev_H_sinv_Ht.cpp /Fobuild\\win64\\dev_H_sinv_Ht.obj",
+    "file": "dev_H_sinv_Ht.cpp",
+    "output": "build/win64/dev_H_sinv_Ht.obj"
+  },
+  {
+    "directory": "C:\\Users\\HP\\Documents\\MATLAB\\general newtonpipg\\pipg_newton_pipg_withtimer\\codegen\\mex\\dev_newtonpipg_compare_withtimer",
+    "command": "cl /c /Zc:__cplusplus /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /utf-8 /I \".\" /I \"C:\\Users\\HP\\Documents\\MATLAB\\general newtonpipg\\pipg_newton_pipg_withtimer\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2024a\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=dev_newtonpipg_compare_withtimer_mex -DMW_NEEDS_VERSION_H /wd4251  power.cpp /Fobuild\\win64\\power.obj",
+    "file": "power.cpp",
+    "output": "build/win64/power.obj"
+  },
+  {
+    "directory": "C:\\Users\\HP\\Documents\\MATLAB\\general newtonpipg\\pipg_newton_pipg_withtimer\\codegen\\mex\\dev_newtonpipg_compare_withtimer",
+    "command": "cl /c /Zc:__cplusplus /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /utf-8 /I \".\" /I \"C:\\Users\\HP\\Documents\\MATLAB\\general newtonpipg\\pipg_newton_pipg_withtimer\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2024a\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=dev_newtonpipg_compare_withtimer_mex -DMW_NEEDS_VERSION_H /wd4251  dev_g_multiply_symmetric.cpp /Fobuild\\win64\\dev_g_multiply_symmetric.obj",
+    "file": "dev_g_multiply_symmetric.cpp",
+    "output": "build/win64/dev_g_multiply_symmetric.obj"
+  },
+  {
+    "directory": "C:\\Users\\HP\\Documents\\MATLAB\\general newtonpipg\\pipg_newton_pipg_withtimer\\codegen\\mex\\dev_newtonpipg_compare_withtimer",
+    "command": "cl /c /Zc:__cplusplus /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /utf-8 /I \".\" /I \"C:\\Users\\HP\\Documents\\MATLAB\\general newtonpipg\\pipg_newton_pipg_withtimer\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2024a\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=dev_newtonpipg_compare_withtimer_mex -DMW_NEEDS_VERSION_H /wd4251  find.cpp /Fobuild\\win64\\find.obj",
+    "file": "find.cpp",
+    "output": "build/win64/find.obj"
+  },
+  {
+    "directory": "C:\\Users\\HP\\Documents\\MATLAB\\general newtonpipg\\pipg_newton_pipg_withtimer\\codegen\\mex\\dev_newtonpipg_compare_withtimer",
+    "command": "cl /c /Zc:__cplusplus /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /utf-8 /I \".\" /I \"C:\\Users\\HP\\Documents\\MATLAB\\general newtonpipg\\pipg_newton_pipg_withtimer\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2024a\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=dev_newtonpipg_compare_withtimer_mex -DMW_NEEDS_VERSION_H /wd4251  sub2ind.cpp /Fobuild\\win64\\sub2ind.obj",
+    "file": "sub2ind.cpp",
+    "output": "build/win64/sub2ind.obj"
+  },
+  {
+    "directory": "C:\\Users\\HP\\Documents\\MATLAB\\general newtonpipg\\pipg_newton_pipg_withtimer\\codegen\\mex\\dev_newtonpipg_compare_withtimer",
+    "command": "cl /c /Zc:__cplusplus /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /utf-8 /I \".\" /I \"C:\\Users\\HP\\Documents\\MATLAB\\general newtonpipg\\pipg_newton_pipg_withtimer\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2024a\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=dev_newtonpipg_compare_withtimer_mex -DMW_NEEDS_VERSION_H /wd4251  dev_cholesky_special.cpp /Fobuild\\win64\\dev_cholesky_special.obj",
+    "file": "dev_cholesky_special.cpp",
+    "output": "build/win64/dev_cholesky_special.obj"
+  },
+  {
+    "directory": "C:\\Users\\HP\\Documents\\MATLAB\\general newtonpipg\\pipg_newton_pipg_withtimer\\codegen\\mex\\dev_newtonpipg_compare_withtimer",
+    "command": "cl /c /Zc:__cplusplus /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /utf-8 /I \".\" /I \"C:\\Users\\HP\\Documents\\MATLAB\\general newtonpipg\\pipg_newton_pipg_withtimer\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2024a\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=dev_newtonpipg_compare_withtimer_mex -DMW_NEEDS_VERSION_H /wd4251  dev_g_Q_multi_vector.cpp /Fobuild\\win64\\dev_g_Q_multi_vector.obj",
+    "file": "dev_g_Q_multi_vector.cpp",
+    "output": "build/win64/dev_g_Q_multi_vector.obj"
+  },
+  {
+    "directory": "C:\\Users\\HP\\Documents\\MATLAB\\general newtonpipg\\pipg_newton_pipg_withtimer\\codegen\\mex\\dev_newtonpipg_compare_withtimer",
+    "command": "cl /c /Zc:__cplusplus /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /utf-8 /I \".\" /I \"C:\\Users\\HP\\Documents\\MATLAB\\general newtonpipg\\pipg_newton_pipg_withtimer\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2024a\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=dev_newtonpipg_compare_withtimer_mex -DMW_NEEDS_VERSION_H /wd4251  dev_Y_multi_vector.cpp /Fobuild\\win64\\dev_Y_multi_vector.obj",
+    "file": "dev_Y_multi_vector.cpp",
+    "output": "build/win64/dev_Y_multi_vector.obj"
+  },
+  {
+    "directory": "C:\\Users\\HP\\Documents\\MATLAB\\general newtonpipg\\pipg_newton_pipg_withtimer\\codegen\\mex\\dev_newtonpipg_compare_withtimer",
+    "command": "cl /c /Zc:__cplusplus /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /utf-8 /I \".\" /I \"C:\\Users\\HP\\Documents\\MATLAB\\general newtonpipg\\pipg_newton_pipg_withtimer\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2024a\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=dev_newtonpipg_compare_withtimer_mex -DMW_NEEDS_VERSION_H /wd4251  dev_solve_Lv.cpp /Fobuild\\win64\\dev_solve_Lv.obj",
+    "file": "dev_solve_Lv.cpp",
+    "output": "build/win64/dev_solve_Lv.obj"
+  },
+  {
+    "directory": "C:\\Users\\HP\\Documents\\MATLAB\\general newtonpipg\\pipg_newton_pipg_withtimer\\codegen\\mex\\dev_newtonpipg_compare_withtimer",
+    "command": "cl /c /Zc:__cplusplus /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /utf-8 /I \".\" /I \"C:\\Users\\HP\\Documents\\MATLAB\\general newtonpipg\\pipg_newton_pipg_withtimer\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2024a\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=dev_newtonpipg_compare_withtimer_mex -DMW_NEEDS_VERSION_H /wd4251  dev_solve_LTv.cpp /Fobuild\\win64\\dev_solve_LTv.obj",
+    "file": "dev_solve_LTv.cpp",
+    "output": "build/win64/dev_solve_LTv.obj"
+  },
+  {
+    "directory": "C:\\Users\\HP\\Documents\\MATLAB\\general newtonpipg\\pipg_newton_pipg_withtimer\\codegen\\mex\\dev_newtonpipg_compare_withtimer",
+    "command": "cl /c /Zc:__cplusplus /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /utf-8 /I \".\" /I \"C:\\Users\\HP\\Documents\\MATLAB\\general newtonpipg\\pipg_newton_pipg_withtimer\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2024a\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=dev_newtonpipg_compare_withtimer_mex -DMW_NEEDS_VERSION_H /wd4251  toc.cpp /Fobuild\\win64\\toc.obj",
+    "file": "toc.cpp",
+    "output": "build/win64/toc.obj"
+  },
+  {
+    "directory": "C:\\Users\\HP\\Documents\\MATLAB\\general newtonpipg\\pipg_newton_pipg_withtimer\\codegen\\mex\\dev_newtonpipg_compare_withtimer",
+    "command": "cl /c /Zc:__cplusplus /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /utf-8 /I \".\" /I \"C:\\Users\\HP\\Documents\\MATLAB\\general newtonpipg\\pipg_newton_pipg_withtimer\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2024a\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=dev_newtonpipg_compare_withtimer_mex -DMW_NEEDS_VERSION_H /wd4251  interface\\_coder_dev_newtonpipg_compare_withtimer_api.cpp /Fobuild\\win64\\_coder_dev_newtonpipg_compare_withtimer_api.obj",
+    "file": "interface/_coder_dev_newtonpipg_compare_withtimer_api.cpp",
+    "output": "build/win64/_coder_dev_newtonpipg_compare_withtimer_api.obj"
+  },
+  {
+    "directory": "C:\\Users\\HP\\Documents\\MATLAB\\general newtonpipg\\pipg_newton_pipg_withtimer\\codegen\\mex\\dev_newtonpipg_compare_withtimer",
+    "command": "cl /c /Zc:__cplusplus /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /utf-8 /I \".\" /I \"C:\\Users\\HP\\Documents\\MATLAB\\general newtonpipg\\pipg_newton_pipg_withtimer\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2024a\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=dev_newtonpipg_compare_withtimer_mex -DMW_NEEDS_VERSION_H /wd4251  interface\\_coder_dev_newtonpipg_compare_withtimer_mex.cpp /Fobuild\\win64\\_coder_dev_newtonpipg_compare_withtimer_mex.obj",
+    "file": "interface/_coder_dev_newtonpipg_compare_withtimer_mex.cpp",
+    "output": "build/win64/_coder_dev_newtonpipg_compare_withtimer_mex.obj"
+  },
+  {
+    "directory": "C:\\Users\\HP\\Documents\\MATLAB\\general newtonpipg\\pipg_newton_pipg_withtimer\\codegen\\mex\\dev_newtonpipg_compare_withtimer",
+    "command": "cl /c /Zc:__cplusplus /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /utf-8 /I \".\" /I \"C:\\Users\\HP\\Documents\\MATLAB\\general newtonpipg\\pipg_newton_pipg_withtimer\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2024a\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=dev_newtonpipg_compare_withtimer_mex -DMW_NEEDS_VERSION_H /wd4251  sqrt.cpp /Fobuild\\win64\\sqrt.obj",
+    "file": "sqrt.cpp",
+    "output": "build/win64/sqrt.obj"
+  },
+  {
+    "directory": "C:\\Users\\HP\\Documents\\MATLAB\\general newtonpipg\\pipg_newton_pipg_withtimer\\codegen\\mex\\dev_newtonpipg_compare_withtimer",
+    "command": "cl /c /Zc:__cplusplus /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /utf-8 /I \".\" /I \"C:\\Users\\HP\\Documents\\MATLAB\\general newtonpipg\\pipg_newton_pipg_withtimer\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2024a\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=dev_newtonpipg_compare_withtimer_mex -DMW_NEEDS_VERSION_H /wd4251  dev_g_A_Q_D.cpp /Fobuild\\win64\\dev_g_A_Q_D.obj",
+    "file": "dev_g_A_Q_D.cpp",
+    "output": "build/win64/dev_g_A_Q_D.obj"
+  },
+  {
+    "directory": "C:\\Users\\HP\\Documents\\MATLAB\\general newtonpipg\\pipg_newton_pipg_withtimer\\codegen\\mex\\dev_newtonpipg_compare_withtimer",
+    "command": "cl /c /Zc:__cplusplus /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /utf-8 /I \".\" /I \"C:\\Users\\HP\\Documents\\MATLAB\\general newtonpipg\\pipg_newton_pipg_withtimer\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2024a\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=dev_newtonpipg_compare_withtimer_mex -DMW_NEEDS_VERSION_H /wd4251  chol.cpp /Fobuild\\win64\\chol.obj",
+    "file": "chol.cpp",
+    "output": "build/win64/chol.obj"
+  },
+  {
+    "directory": "C:\\Users\\HP\\Documents\\MATLAB\\general newtonpipg\\pipg_newton_pipg_withtimer\\codegen\\mex\\dev_newtonpipg_compare_withtimer",
+    "command": "cl /c /Zc:__cplusplus /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /utf-8 /I \".\" /I \"C:\\Users\\HP\\Documents\\MATLAB\\general newtonpipg\\pipg_newton_pipg_withtimer\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2024a\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=dev_newtonpipg_compare_withtimer_mex -DMW_NEEDS_VERSION_H /wd4251  div.cpp /Fobuild\\win64\\div.obj",
+    "file": "div.cpp",
+    "output": "build/win64/div.obj"
+  },
+  {
+    "directory": "C:\\Users\\HP\\Documents\\MATLAB\\general newtonpipg\\pipg_newton_pipg_withtimer\\codegen\\mex\\dev_newtonpipg_compare_withtimer",
+    "command": "cl /c /Zc:__cplusplus /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /utf-8 /I \".\" /I \"C:\\Users\\HP\\Documents\\MATLAB\\general newtonpipg\\pipg_newton_pipg_withtimer\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2024a\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=dev_newtonpipg_compare_withtimer_mex -DMW_NEEDS_VERSION_H /wd4251  eml_mtimes_helper.cpp /Fobuild\\win64\\eml_mtimes_helper.obj",
+    "file": "eml_mtimes_helper.cpp",
+    "output": "build/win64/eml_mtimes_helper.obj"
+  },
+  {
+    "directory": "C:\\Users\\HP\\Documents\\MATLAB\\general newtonpipg\\pipg_newton_pipg_withtimer\\codegen\\mex\\dev_newtonpipg_compare_withtimer",
+    "command": "cl /c /Zc:__cplusplus /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /utf-8 /I \".\" /I \"C:\\Users\\HP\\Documents\\MATLAB\\general newtonpipg\\pipg_newton_pipg_withtimer\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2024a\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=dev_newtonpipg_compare_withtimer_mex -DMW_NEEDS_VERSION_H /wd4251  dev_A_Q_D_unit.cpp /Fobuild\\win64\\dev_A_Q_D_unit.obj",
+    "file": "dev_A_Q_D_unit.cpp",
+    "output": "build/win64/dev_A_Q_D_unit.obj"
+  },
+  {
+    "directory": "C:\\Users\\HP\\Documents\\MATLAB\\general newtonpipg\\pipg_newton_pipg_withtimer\\codegen\\mex\\dev_newtonpipg_compare_withtimer",
+    "command": "cl /c /Zc:__cplusplus /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /utf-8 /I \".\" /I \"C:\\Users\\HP\\Documents\\MATLAB\\general newtonpipg\\pipg_newton_pipg_withtimer\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2024a\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=dev_newtonpipg_compare_withtimer_mex -DMW_NEEDS_VERSION_H /wd4251  dev_newtonpipg_compare_withtimer_mexutil.cpp /Fobuild\\win64\\dev_newtonpipg_compare_withtimer_mexutil.obj",
+    "file": "dev_newtonpipg_compare_withtimer_mexutil.cpp",
+    "output": "build/win64/dev_newtonpipg_compare_withtimer_mexutil.obj"
+  },
+  {
+    "directory": "C:\\Users\\HP\\Documents\\MATLAB\\general newtonpipg\\pipg_newton_pipg_withtimer\\codegen\\mex\\dev_newtonpipg_compare_withtimer",
+    "command": "cl /c /Zc:__cplusplus /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /utf-8 /I \".\" /I \"C:\\Users\\HP\\Documents\\MATLAB\\general newtonpipg\\pipg_newton_pipg_withtimer\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2024a\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=dev_newtonpipg_compare_withtimer_mex -DMW_NEEDS_VERSION_H /wd4251  interface\\_coder_dev_newtonpipg_compare_withtimer_info.cpp /Fobuild\\win64\\_coder_dev_newtonpipg_compare_withtimer_info.obj",
+    "file": "interface/_coder_dev_newtonpipg_compare_withtimer_info.cpp",
+    "output": "build/win64/_coder_dev_newtonpipg_compare_withtimer_info.obj"
+  },
+  {
+    "directory": "C:\\Users\\HP\\Documents\\MATLAB\\general newtonpipg\\pipg_newton_pipg_withtimer\\codegen\\mex\\dev_newtonpipg_compare_withtimer",
+    "command": "cl /c /Zc:__cplusplus /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /utf-8 /I \".\" /I \"C:\\Users\\HP\\Documents\\MATLAB\\general newtonpipg\\pipg_newton_pipg_withtimer\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2024a\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=dev_newtonpipg_compare_withtimer_mex -DMW_NEEDS_VERSION_H /wd4251  \"C:\\Program Files\\MATLAB\\R2024a\\extern\\version\\cpp_mexapi_version.cpp\" /Fobuild\\win64\\cpp_mexapi_version.obj",
+    "file": "C:/Program Files/MATLAB/R2024a/extern/version/cpp_mexapi_version.cpp",
+    "output": "build/win64/cpp_mexapi_version.obj"
+  }
+]
