@@ -1,0 +1,57 @@
+# CompilerName=mingw64
+# Mode=optim
+ninja_required_version = 1.3
+
+# Basic folders
+root = .
+builddir = $root/build/win64
+matlabdir = C:/Program Files/MATLAB/R2022b
+startdir = C:/Users/dayou/OneDrive/Documents/MATLAB/Newtonpipg+paper/newtonpipg
+
+# Toolchain information
+cc = C:\ProgramData\MATLAB\SupportPackages\R2022b\3P.instrset\mingw_w64.instrset\bin\gcc
+cxx = C:\ProgramData\MATLAB\SupportPackages\R2022b\3P.instrset\mingw_w64.instrset\bin\g++
+linker = C:\ProgramData\MATLAB\SupportPackages\R2022b\3P.instrset\mingw_w64.instrset\bin\gcc
+linkerxx = C:\ProgramData\MATLAB\SupportPackages\R2022b\3P.instrset\mingw_w64.instrset\bin\g++
+
+cflags =  -c -fexceptions -fno-omit-frame-pointer -m64 -DMATLAB_MEX_FILE  -DMATLAB_MEX_FILE -O2 -fwrapv -DNDEBUG -std=c99 -I "C:\Users\dayou\OneDrive\Documents\MATLAB\Newtonpipg+paper\newtonpipg\codegen\mex\dev_pipg" -I "C:\Users\dayou\OneDrive\Documents\MATLAB\Newtonpipg+paper\newtonpipg" -I "C:\Users\dayou\OneDrive\Documents\MATLAB\Newtonpipg+paper\newtonpipg\codegen\mex\dev_pipg\interface" -I "C:\Program Files\MATLAB\R2022b\extern\include" -I "." -DMODEL=dev_pipg_mex -D__USE_MINGW_ANSI_STDIO=1 -DMW_NEEDS_VERSION_H  
+
+cxxflags =  -c -fexceptions -fno-omit-frame-pointer -std=c++11 -m64 -DMATLAB_MEX_FILE  -DMATLAB_MEX_FILE -O2 -fwrapv -DNDEBUG -std=c++11 -I "C:\Users\dayou\OneDrive\Documents\MATLAB\Newtonpipg+paper\newtonpipg\codegen\mex\dev_pipg" -I "C:\Users\dayou\OneDrive\Documents\MATLAB\Newtonpipg+paper\newtonpipg" -I "C:\Users\dayou\OneDrive\Documents\MATLAB\Newtonpipg+paper\newtonpipg\codegen\mex\dev_pipg\interface" -I "C:\Program Files\MATLAB\R2022b\extern\include" -I "." -DMODEL=dev_pipg_mex -D__USE_MINGW_ANSI_STDIO=1 -DMW_NEEDS_VERSION_H  
+
+ldflags =  -m64 -Wl,--no-undefined -shared -static -L"C:\Program Files\MATLAB\R2022b\extern\lib\win64\mingw64" -llibmx -llibmex -llibmat -lm -llibmwlapack -llibmwblas -llibMatlabDataArray -llibMatlabEngine  -o "dev_pipg_mex.mexw64" -L"$matlabdir\extern\lib\win64\mingw64" -llibmwblas -llibemlrt -llibcovrt -llibut -llibmwmathutil 
+
+linkobjs = 
+
+# Build Rules
+rule cc
+    command = $cc $cflags $in -o $out
+
+rule cxx
+    command = $cxx $cxxflags $in -o $out
+
+rule link
+    command = $linker @$out.rsp $linkobjs $ldflags
+    rspfile = $out.rsp
+    rspfile_content = $in
+
+rule linkxx
+    command = $linkerxx $in $linkobjs $ldflags
+
+# Build
+build $builddir/dev_pipg_data.o : cxx $root/dev_pipg_data.cpp
+build $builddir/rt_nonfinite.o : cxx $root/rt_nonfinite.cpp
+build $builddir/dev_pipg_initialize.o : cxx $root/dev_pipg_initialize.cpp
+build $builddir/dev_pipg_terminate.o : cxx $root/dev_pipg_terminate.cpp
+build $builddir/dev_pipg.o : cxx $root/dev_pipg.cpp
+build $builddir/tic.o : cxx $root/tic.cpp
+build $builddir/timeKeeper.o : cxx $root/timeKeeper.cpp
+build $builddir/dev_HZ.o : cxx $root/dev_HZ.cpp
+build $builddir/dev_HtZ.o : cxx $root/dev_HtZ.cpp
+build $builddir/toc.o : cxx $root/toc.cpp
+build $builddir/_coder_dev_pipg_api.o : cxx $root/interface/_coder_dev_pipg_api.cpp
+build $builddir/_coder_dev_pipg_mex.o : cxx $root/interface/_coder_dev_pipg_mex.cpp
+build $builddir/_coder_dev_pipg_info.o : cxx $root/interface/_coder_dev_pipg_info.cpp
+build $builddir/cpp_mexapi_version.o : cxx $matlabdir/extern/version/cpp_mexapi_version.cpp
+
+# Link
+build $root\dev_pipg_mex.mexw64 : linkxx $builddir/dev_pipg_data.o $builddir/rt_nonfinite.o $builddir/dev_pipg_initialize.o $builddir/dev_pipg_terminate.o $builddir/dev_pipg.o $builddir/tic.o $builddir/timeKeeper.o $builddir/dev_HZ.o $builddir/dev_HtZ.o $builddir/toc.o $builddir/_coder_dev_pipg_api.o $builddir/_coder_dev_pipg_mex.o $builddir/_coder_dev_pipg_info.o $builddir/cpp_mexapi_version.o 

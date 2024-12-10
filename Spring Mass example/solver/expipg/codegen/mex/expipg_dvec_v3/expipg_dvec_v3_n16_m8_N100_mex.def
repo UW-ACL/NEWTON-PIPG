@@ -1,0 +1,9 @@
+LIBRARY expipg_dvec_v3_n16_m8_N100_mex.mexw64
+EXPORTS
+mexFunction
+mexfilerequiredapiversion
+emlrtMexFcnProperties
+expipg_dvec_v3
+expipg_dvec_v3_initialize
+expipg_dvec_v3_terminate
+expipg_dvec_v3_atexit

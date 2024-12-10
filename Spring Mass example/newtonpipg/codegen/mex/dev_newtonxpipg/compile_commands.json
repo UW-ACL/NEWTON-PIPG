@@ -1,0 +1,122 @@
+[
+  {
+    "directory": "C:\\Users\\dayou\\OneDrive\\Documents\\MATLAB\\Newtonpipg+paper\\newtonpipg\\codegen\\mex\\dev_newtonxpipg",
+    "command": "C:\\ProgramData\\MATLAB\\SupportPackages\\R2022b\\3P.instrset\\mingw_w64.instrset\\bin\\g++ -c -fexceptions -fno-omit-frame-pointer -std=c++11 -m64 -DMATLAB_MEX_FILE  -DMATLAB_MEX_FILE -O2 -fwrapv -DNDEBUG -std=c++11 -I \"C:\\Users\\dayou\\OneDrive\\Documents\\MATLAB\\Newtonpipg+paper\\newtonpipg\\codegen\\mex\\dev_newtonxpipg\" -I \"C:\\Users\\dayou\\OneDrive\\Documents\\MATLAB\\Newtonpipg+paper\\newtonpipg\" -I \"C:\\Users\\dayou\\OneDrive\\Documents\\MATLAB\\Newtonpipg+paper\\newtonpipg\\codegen\\mex\\dev_newtonxpipg\\interface\" -I \"C:\\Program Files\\MATLAB\\R2022b\\extern\\include\" -I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=dev_newtonxpipg_mex -D__USE_MINGW_ANSI_STDIO=1 -DMW_NEEDS_VERSION_H   dev_newtonxpipg_data.cpp -o build/win64/dev_newtonxpipg_data.o",
+    "file": "dev_newtonxpipg_data.cpp",
+    "output": "build/win64/dev_newtonxpipg_data.o"
+  },
+  {
+    "directory": "C:\\Users\\dayou\\OneDrive\\Documents\\MATLAB\\Newtonpipg+paper\\newtonpipg\\codegen\\mex\\dev_newtonxpipg",
+    "command": "C:\\ProgramData\\MATLAB\\SupportPackages\\R2022b\\3P.instrset\\mingw_w64.instrset\\bin\\g++ -c -fexceptions -fno-omit-frame-pointer -std=c++11 -m64 -DMATLAB_MEX_FILE  -DMATLAB_MEX_FILE -O2 -fwrapv -DNDEBUG -std=c++11 -I \"C:\\Users\\dayou\\OneDrive\\Documents\\MATLAB\\Newtonpipg+paper\\newtonpipg\\codegen\\mex\\dev_newtonxpipg\" -I \"C:\\Users\\dayou\\OneDrive\\Documents\\MATLAB\\Newtonpipg+paper\\newtonpipg\" -I \"C:\\Users\\dayou\\OneDrive\\Documents\\MATLAB\\Newtonpipg+paper\\newtonpipg\\codegen\\mex\\dev_newtonxpipg\\interface\" -I \"C:\\Program Files\\MATLAB\\R2022b\\extern\\include\" -I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=dev_newtonxpipg_mex -D__USE_MINGW_ANSI_STDIO=1 -DMW_NEEDS_VERSION_H   rt_nonfinite.cpp -o build/win64/rt_nonfinite.o",
+    "file": "rt_nonfinite.cpp",
+    "output": "build/win64/rt_nonfinite.o"
+  },
+  {
+    "directory": "C:\\Users\\dayou\\OneDrive\\Documents\\MATLAB\\Newtonpipg+paper\\newtonpipg\\codegen\\mex\\dev_newtonxpipg",
+    "command": "C:\\ProgramData\\MATLAB\\SupportPackages\\R2022b\\3P.instrset\\mingw_w64.instrset\\bin\\g++ -c -fexceptions -fno-omit-frame-pointer -std=c++11 -m64 -DMATLAB_MEX_FILE  -DMATLAB_MEX_FILE -O2 -fwrapv -DNDEBUG -std=c++11 -I \"C:\\Users\\dayou\\OneDrive\\Documents\\MATLAB\\Newtonpipg+paper\\newtonpipg\\codegen\\mex\\dev_newtonxpipg\" -I \"C:\\Users\\dayou\\OneDrive\\Documents\\MATLAB\\Newtonpipg+paper\\newtonpipg\" -I \"C:\\Users\\dayou\\OneDrive\\Documents\\MATLAB\\Newtonpipg+paper\\newtonpipg\\codegen\\mex\\dev_newtonxpipg\\interface\" -I \"C:\\Program Files\\MATLAB\\R2022b\\extern\\include\" -I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=dev_newtonxpipg_mex -D__USE_MINGW_ANSI_STDIO=1 -DMW_NEEDS_VERSION_H   dev_newtonxpipg_initialize.cpp -o build/win64/dev_newtonxpipg_initialize.o",
+    "file": "dev_newtonxpipg_initialize.cpp",
+    "output": "build/win64/dev_newtonxpipg_initialize.o"
+  },
+  {
+    "directory": "C:\\Users\\dayou\\OneDrive\\Documents\\MATLAB\\Newtonpipg+paper\\newtonpipg\\codegen\\mex\\dev_newtonxpipg",
+    "command": "C:\\ProgramData\\MATLAB\\SupportPackages\\R2022b\\3P.instrset\\mingw_w64.instrset\\bin\\g++ -c -fexceptions -fno-omit-frame-pointer -std=c++11 -m64 -DMATLAB_MEX_FILE  -DMATLAB_MEX_FILE -O2 -fwrapv -DNDEBUG -std=c++11 -I \"C:\\Users\\dayou\\OneDrive\\Documents\\MATLAB\\Newtonpipg+paper\\newtonpipg\\codegen\\mex\\dev_newtonxpipg\" -I \"C:\\Users\\dayou\\OneDrive\\Documents\\MATLAB\\Newtonpipg+paper\\newtonpipg\" -I \"C:\\Users\\dayou\\OneDrive\\Documents\\MATLAB\\Newtonpipg+paper\\newtonpipg\\codegen\\mex\\dev_newtonxpipg\\interface\" -I \"C:\\Program Files\\MATLAB\\R2022b\\extern\\include\" -I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=dev_newtonxpipg_mex -D__USE_MINGW_ANSI_STDIO=1 -DMW_NEEDS_VERSION_H   dev_newtonxpipg_terminate.cpp -o build/win64/dev_newtonxpipg_terminate.o",
+    "file": "dev_newtonxpipg_terminate.cpp",
+    "output": "build/win64/dev_newtonxpipg_terminate.o"
+  },
+  {
+    "directory": "C:\\Users\\dayou\\OneDrive\\Documents\\MATLAB\\Newtonpipg+paper\\newtonpipg\\codegen\\mex\\dev_newtonxpipg",
+    "command": "C:\\ProgramData\\MATLAB\\SupportPackages\\R2022b\\3P.instrset\\mingw_w64.instrset\\bin\\g++ -c -fexceptions -fno-omit-frame-pointer -std=c++11 -m64 -DMATLAB_MEX_FILE  -DMATLAB_MEX_FILE -O2 -fwrapv -DNDEBUG -std=c++11 -I \"C:\\Users\\dayou\\OneDrive\\Documents\\MATLAB\\Newtonpipg+paper\\newtonpipg\\codegen\\mex\\dev_newtonxpipg\" -I \"C:\\Users\\dayou\\OneDrive\\Documents\\MATLAB\\Newtonpipg+paper\\newtonpipg\" -I \"C:\\Users\\dayou\\OneDrive\\Documents\\MATLAB\\Newtonpipg+paper\\newtonpipg\\codegen\\mex\\dev_newtonxpipg\\interface\" -I \"C:\\Program Files\\MATLAB\\R2022b\\extern\\include\" -I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=dev_newtonxpipg_mex -D__USE_MINGW_ANSI_STDIO=1 -DMW_NEEDS_VERSION_H   dev_newtonxpipg.cpp -o build/win64/dev_newtonxpipg.o",
+    "file": "dev_newtonxpipg.cpp",
+    "output": "build/win64/dev_newtonxpipg.o"
+  },
+  {
+    "directory": "C:\\Users\\dayou\\OneDrive\\Documents\\MATLAB\\Newtonpipg+paper\\newtonpipg\\codegen\\mex\\dev_newtonxpipg",
+    "command": "C:\\ProgramData\\MATLAB\\SupportPackages\\R2022b\\3P.instrset\\mingw_w64.instrset\\bin\\g++ -c -fexceptions -fno-omit-frame-pointer -std=c++11 -m64 -DMATLAB_MEX_FILE  -DMATLAB_MEX_FILE -O2 -fwrapv -DNDEBUG -std=c++11 -I \"C:\\Users\\dayou\\OneDrive\\Documents\\MATLAB\\Newtonpipg+paper\\newtonpipg\\codegen\\mex\\dev_newtonxpipg\" -I \"C:\\Users\\dayou\\OneDrive\\Documents\\MATLAB\\Newtonpipg+paper\\newtonpipg\" -I \"C:\\Users\\dayou\\OneDrive\\Documents\\MATLAB\\Newtonpipg+paper\\newtonpipg\\codegen\\mex\\dev_newtonxpipg\\interface\" -I \"C:\\Program Files\\MATLAB\\R2022b\\extern\\include\" -I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=dev_newtonxpipg_mex -D__USE_MINGW_ANSI_STDIO=1 -DMW_NEEDS_VERSION_H   tic.cpp -o build/win64/tic.o",
+    "file": "tic.cpp",
+    "output": "build/win64/tic.o"
+  },
+  {
+    "directory": "C:\\Users\\dayou\\OneDrive\\Documents\\MATLAB\\Newtonpipg+paper\\newtonpipg\\codegen\\mex\\dev_newtonxpipg",
+    "command": "C:\\ProgramData\\MATLAB\\SupportPackages\\R2022b\\3P.instrset\\mingw_w64.instrset\\bin\\g++ -c -fexceptions -fno-omit-frame-pointer -std=c++11 -m64 -DMATLAB_MEX_FILE  -DMATLAB_MEX_FILE -O2 -fwrapv -DNDEBUG -std=c++11 -I \"C:\\Users\\dayou\\OneDrive\\Documents\\MATLAB\\Newtonpipg+paper\\newtonpipg\\codegen\\mex\\dev_newtonxpipg\" -I \"C:\\Users\\dayou\\OneDrive\\Documents\\MATLAB\\Newtonpipg+paper\\newtonpipg\" -I \"C:\\Users\\dayou\\OneDrive\\Documents\\MATLAB\\Newtonpipg+paper\\newtonpipg\\codegen\\mex\\dev_newtonxpipg\\interface\" -I \"C:\\Program Files\\MATLAB\\R2022b\\extern\\include\" -I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=dev_newtonxpipg_mex -D__USE_MINGW_ANSI_STDIO=1 -DMW_NEEDS_VERSION_H   timeKeeper.cpp -o build/win64/timeKeeper.o",
+    "file": "timeKeeper.cpp",
+    "output": "build/win64/timeKeeper.o"
+  },
+  {
+    "directory": "C:\\Users\\dayou\\OneDrive\\Documents\\MATLAB\\Newtonpipg+paper\\newtonpipg\\codegen\\mex\\dev_newtonxpipg",
+    "command": "C:\\ProgramData\\MATLAB\\SupportPackages\\R2022b\\3P.instrset\\mingw_w64.instrset\\bin\\g++ -c -fexceptions -fno-omit-frame-pointer -std=c++11 -m64 -DMATLAB_MEX_FILE  -DMATLAB_MEX_FILE -O2 -fwrapv -DNDEBUG -std=c++11 -I \"C:\\Users\\dayou\\OneDrive\\Documents\\MATLAB\\Newtonpipg+paper\\newtonpipg\\codegen\\mex\\dev_newtonxpipg\" -I \"C:\\Users\\dayou\\OneDrive\\Documents\\MATLAB\\Newtonpipg+paper\\newtonpipg\" -I \"C:\\Users\\dayou\\OneDrive\\Documents\\MATLAB\\Newtonpipg+paper\\newtonpipg\\codegen\\mex\\dev_newtonxpipg\\interface\" -I \"C:\\Program Files\\MATLAB\\R2022b\\extern\\include\" -I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=dev_newtonxpipg_mex -D__USE_MINGW_ANSI_STDIO=1 -DMW_NEEDS_VERSION_H   dev_HZ.cpp -o build/win64/dev_HZ.o",
+    "file": "dev_HZ.cpp",
+    "output": "build/win64/dev_HZ.o"
+  },
+  {
+    "directory": "C:\\Users\\dayou\\OneDrive\\Documents\\MATLAB\\Newtonpipg+paper\\newtonpipg\\codegen\\mex\\dev_newtonxpipg",
+    "command": "C:\\ProgramData\\MATLAB\\SupportPackages\\R2022b\\3P.instrset\\mingw_w64.instrset\\bin\\g++ -c -fexceptions -fno-omit-frame-pointer -std=c++11 -m64 -DMATLAB_MEX_FILE  -DMATLAB_MEX_FILE -O2 -fwrapv -DNDEBUG -std=c++11 -I \"C:\\Users\\dayou\\OneDrive\\Documents\\MATLAB\\Newtonpipg+paper\\newtonpipg\\codegen\\mex\\dev_newtonxpipg\" -I \"C:\\Users\\dayou\\OneDrive\\Documents\\MATLAB\\Newtonpipg+paper\\newtonpipg\" -I \"C:\\Users\\dayou\\OneDrive\\Documents\\MATLAB\\Newtonpipg+paper\\newtonpipg\\codegen\\mex\\dev_newtonxpipg\\interface\" -I \"C:\\Program Files\\MATLAB\\R2022b\\extern\\include\" -I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=dev_newtonxpipg_mex -D__USE_MINGW_ANSI_STDIO=1 -DMW_NEEDS_VERSION_H   dev_HtZ.cpp -o build/win64/dev_HtZ.o",
+    "file": "dev_HtZ.cpp",
+    "output": "build/win64/dev_HtZ.o"
+  },
+  {
+    "directory": "C:\\Users\\dayou\\OneDrive\\Documents\\MATLAB\\Newtonpipg+paper\\newtonpipg\\codegen\\mex\\dev_newtonxpipg",
+    "command": "C:\\ProgramData\\MATLAB\\SupportPackages\\R2022b\\3P.instrset\\mingw_w64.instrset\\bin\\g++ -c -fexceptions -fno-omit-frame-pointer -std=c++11 -m64 -DMATLAB_MEX_FILE  -DMATLAB_MEX_FILE -O2 -fwrapv -DNDEBUG -std=c++11 -I \"C:\\Users\\dayou\\OneDrive\\Documents\\MATLAB\\Newtonpipg+paper\\newtonpipg\\codegen\\mex\\dev_newtonxpipg\" -I \"C:\\Users\\dayou\\OneDrive\\Documents\\MATLAB\\Newtonpipg+paper\\newtonpipg\" -I \"C:\\Users\\dayou\\OneDrive\\Documents\\MATLAB\\Newtonpipg+paper\\newtonpipg\\codegen\\mex\\dev_newtonxpipg\\interface\" -I \"C:\\Program Files\\MATLAB\\R2022b\\extern\\include\" -I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=dev_newtonxpipg_mex -D__USE_MINGW_ANSI_STDIO=1 -DMW_NEEDS_VERSION_H   dev_multiply_symmetric.cpp -o build/win64/dev_multiply_symmetric.o",
+    "file": "dev_multiply_symmetric.cpp",
+    "output": "build/win64/dev_multiply_symmetric.o"
+  },
+  {
+    "directory": "C:\\Users\\dayou\\OneDrive\\Documents\\MATLAB\\Newtonpipg+paper\\newtonpipg\\codegen\\mex\\dev_newtonxpipg",
+    "command": "C:\\ProgramData\\MATLAB\\SupportPackages\\R2022b\\3P.instrset\\mingw_w64.instrset\\bin\\g++ -c -fexceptions -fno-omit-frame-pointer -std=c++11 -m64 -DMATLAB_MEX_FILE  -DMATLAB_MEX_FILE -O2 -fwrapv -DNDEBUG -std=c++11 -I \"C:\\Users\\dayou\\OneDrive\\Documents\\MATLAB\\Newtonpipg+paper\\newtonpipg\\codegen\\mex\\dev_newtonxpipg\" -I \"C:\\Users\\dayou\\OneDrive\\Documents\\MATLAB\\Newtonpipg+paper\\newtonpipg\" -I \"C:\\Users\\dayou\\OneDrive\\Documents\\MATLAB\\Newtonpipg+paper\\newtonpipg\\codegen\\mex\\dev_newtonxpipg\\interface\" -I \"C:\\Program Files\\MATLAB\\R2022b\\extern\\include\" -I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=dev_newtonxpipg_mex -D__USE_MINGW_ANSI_STDIO=1 -DMW_NEEDS_VERSION_H   dev_cholesky_special.cpp -o build/win64/dev_cholesky_special.o",
+    "file": "dev_cholesky_special.cpp",
+    "output": "build/win64/dev_cholesky_special.o"
+  },
+  {
+    "directory": "C:\\Users\\dayou\\OneDrive\\Documents\\MATLAB\\Newtonpipg+paper\\newtonpipg\\codegen\\mex\\dev_newtonxpipg",
+    "command": "C:\\ProgramData\\MATLAB\\SupportPackages\\R2022b\\3P.instrset\\mingw_w64.instrset\\bin\\g++ -c -fexceptions -fno-omit-frame-pointer -std=c++11 -m64 -DMATLAB_MEX_FILE  -DMATLAB_MEX_FILE -O2 -fwrapv -DNDEBUG -std=c++11 -I \"C:\\Users\\dayou\\OneDrive\\Documents\\MATLAB\\Newtonpipg+paper\\newtonpipg\\codegen\\mex\\dev_newtonxpipg\" -I \"C:\\Users\\dayou\\OneDrive\\Documents\\MATLAB\\Newtonpipg+paper\\newtonpipg\" -I \"C:\\Users\\dayou\\OneDrive\\Documents\\MATLAB\\Newtonpipg+paper\\newtonpipg\\codegen\\mex\\dev_newtonxpipg\\interface\" -I \"C:\\Program Files\\MATLAB\\R2022b\\extern\\include\" -I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=dev_newtonxpipg_mex -D__USE_MINGW_ANSI_STDIO=1 -DMW_NEEDS_VERSION_H   toc.cpp -o build/win64/toc.o",
+    "file": "toc.cpp",
+    "output": "build/win64/toc.o"
+  },
+  {
+    "directory": "C:\\Users\\dayou\\OneDrive\\Documents\\MATLAB\\Newtonpipg+paper\\newtonpipg\\codegen\\mex\\dev_newtonxpipg",
+    "command": "C:\\ProgramData\\MATLAB\\SupportPackages\\R2022b\\3P.instrset\\mingw_w64.instrset\\bin\\g++ -c -fexceptions -fno-omit-frame-pointer -std=c++11 -m64 -DMATLAB_MEX_FILE  -DMATLAB_MEX_FILE -O2 -fwrapv -DNDEBUG -std=c++11 -I \"C:\\Users\\dayou\\OneDrive\\Documents\\MATLAB\\Newtonpipg+paper\\newtonpipg\\codegen\\mex\\dev_newtonxpipg\" -I \"C:\\Users\\dayou\\OneDrive\\Documents\\MATLAB\\Newtonpipg+paper\\newtonpipg\" -I \"C:\\Users\\dayou\\OneDrive\\Documents\\MATLAB\\Newtonpipg+paper\\newtonpipg\\codegen\\mex\\dev_newtonxpipg\\interface\" -I \"C:\\Program Files\\MATLAB\\R2022b\\extern\\include\" -I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=dev_newtonxpipg_mex -D__USE_MINGW_ANSI_STDIO=1 -DMW_NEEDS_VERSION_H   interface/_coder_dev_newtonxpipg_api.cpp -o build/win64/_coder_dev_newtonxpipg_api.o",
+    "file": "interface/_coder_dev_newtonxpipg_api.cpp",
+    "output": "build/win64/_coder_dev_newtonxpipg_api.o"
+  },
+  {
+    "directory": "C:\\Users\\dayou\\OneDrive\\Documents\\MATLAB\\Newtonpipg+paper\\newtonpipg\\codegen\\mex\\dev_newtonxpipg",
+    "command": "C:\\ProgramData\\MATLAB\\SupportPackages\\R2022b\\3P.instrset\\mingw_w64.instrset\\bin\\g++ -c -fexceptions -fno-omit-frame-pointer -std=c++11 -m64 -DMATLAB_MEX_FILE  -DMATLAB_MEX_FILE -O2 -fwrapv -DNDEBUG -std=c++11 -I \"C:\\Users\\dayou\\OneDrive\\Documents\\MATLAB\\Newtonpipg+paper\\newtonpipg\\codegen\\mex\\dev_newtonxpipg\" -I \"C:\\Users\\dayou\\OneDrive\\Documents\\MATLAB\\Newtonpipg+paper\\newtonpipg\" -I \"C:\\Users\\dayou\\OneDrive\\Documents\\MATLAB\\Newtonpipg+paper\\newtonpipg\\codegen\\mex\\dev_newtonxpipg\\interface\" -I \"C:\\Program Files\\MATLAB\\R2022b\\extern\\include\" -I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=dev_newtonxpipg_mex -D__USE_MINGW_ANSI_STDIO=1 -DMW_NEEDS_VERSION_H   interface/_coder_dev_newtonxpipg_mex.cpp -o build/win64/_coder_dev_newtonxpipg_mex.o",
+    "file": "interface/_coder_dev_newtonxpipg_mex.cpp",
+    "output": "build/win64/_coder_dev_newtonxpipg_mex.o"
+  },
+  {
+    "directory": "C:\\Users\\dayou\\OneDrive\\Documents\\MATLAB\\Newtonpipg+paper\\newtonpipg\\codegen\\mex\\dev_newtonxpipg",
+    "command": "C:\\ProgramData\\MATLAB\\SupportPackages\\R2022b\\3P.instrset\\mingw_w64.instrset\\bin\\g++ -c -fexceptions -fno-omit-frame-pointer -std=c++11 -m64 -DMATLAB_MEX_FILE  -DMATLAB_MEX_FILE -O2 -fwrapv -DNDEBUG -std=c++11 -I \"C:\\Users\\dayou\\OneDrive\\Documents\\MATLAB\\Newtonpipg+paper\\newtonpipg\\codegen\\mex\\dev_newtonxpipg\" -I \"C:\\Users\\dayou\\OneDrive\\Documents\\MATLAB\\Newtonpipg+paper\\newtonpipg\" -I \"C:\\Users\\dayou\\OneDrive\\Documents\\MATLAB\\Newtonpipg+paper\\newtonpipg\\codegen\\mex\\dev_newtonxpipg\\interface\" -I \"C:\\Program Files\\MATLAB\\R2022b\\extern\\include\" -I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=dev_newtonxpipg_mex -D__USE_MINGW_ANSI_STDIO=1 -DMW_NEEDS_VERSION_H   dev_newtonpipgupdate.cpp -o build/win64/dev_newtonpipgupdate.o",
+    "file": "dev_newtonpipgupdate.cpp",
+    "output": "build/win64/dev_newtonpipgupdate.o"
+  },
+  {
+    "directory": "C:\\Users\\dayou\\OneDrive\\Documents\\MATLAB\\Newtonpipg+paper\\newtonpipg\\codegen\\mex\\dev_newtonxpipg",
+    "command": "C:\\ProgramData\\MATLAB\\SupportPackages\\R2022b\\3P.instrset\\mingw_w64.instrset\\bin\\g++ -c -fexceptions -fno-omit-frame-pointer -std=c++11 -m64 -DMATLAB_MEX_FILE  -DMATLAB_MEX_FILE -O2 -fwrapv -DNDEBUG -std=c++11 -I \"C:\\Users\\dayou\\OneDrive\\Documents\\MATLAB\\Newtonpipg+paper\\newtonpipg\\codegen\\mex\\dev_newtonxpipg\" -I \"C:\\Users\\dayou\\OneDrive\\Documents\\MATLAB\\Newtonpipg+paper\\newtonpipg\" -I \"C:\\Users\\dayou\\OneDrive\\Documents\\MATLAB\\Newtonpipg+paper\\newtonpipg\\codegen\\mex\\dev_newtonxpipg\\interface\" -I \"C:\\Program Files\\MATLAB\\R2022b\\extern\\include\" -I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=dev_newtonxpipg_mex -D__USE_MINGW_ANSI_STDIO=1 -DMW_NEEDS_VERSION_H   chol.cpp -o build/win64/chol.o",
+    "file": "chol.cpp",
+    "output": "build/win64/chol.o"
+  },
+  {
+    "directory": "C:\\Users\\dayou\\OneDrive\\Documents\\MATLAB\\Newtonpipg+paper\\newtonpipg\\codegen\\mex\\dev_newtonxpipg",
+    "command": "C:\\ProgramData\\MATLAB\\SupportPackages\\R2022b\\3P.instrset\\mingw_w64.instrset\\bin\\g++ -c -fexceptions -fno-omit-frame-pointer -std=c++11 -m64 -DMATLAB_MEX_FILE  -DMATLAB_MEX_FILE -O2 -fwrapv -DNDEBUG -std=c++11 -I \"C:\\Users\\dayou\\OneDrive\\Documents\\MATLAB\\Newtonpipg+paper\\newtonpipg\\codegen\\mex\\dev_newtonxpipg\" -I \"C:\\Users\\dayou\\OneDrive\\Documents\\MATLAB\\Newtonpipg+paper\\newtonpipg\" -I \"C:\\Users\\dayou\\OneDrive\\Documents\\MATLAB\\Newtonpipg+paper\\newtonpipg\\codegen\\mex\\dev_newtonxpipg\\interface\" -I \"C:\\Program Files\\MATLAB\\R2022b\\extern\\include\" -I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=dev_newtonxpipg_mex -D__USE_MINGW_ANSI_STDIO=1 -DMW_NEEDS_VERSION_H   sparse.cpp -o build/win64/sparse.o",
+    "file": "sparse.cpp",
+    "output": "build/win64/sparse.o"
+  },
+  {
+    "directory": "C:\\Users\\dayou\\OneDrive\\Documents\\MATLAB\\Newtonpipg+paper\\newtonpipg\\codegen\\mex\\dev_newtonxpipg",
+    "command": "C:\\ProgramData\\MATLAB\\SupportPackages\\R2022b\\3P.instrset\\mingw_w64.instrset\\bin\\g++ -c -fexceptions -fno-omit-frame-pointer -std=c++11 -m64 -DMATLAB_MEX_FILE  -DMATLAB_MEX_FILE -O2 -fwrapv -DNDEBUG -std=c++11 -I \"C:\\Users\\dayou\\OneDrive\\Documents\\MATLAB\\Newtonpipg+paper\\newtonpipg\\codegen\\mex\\dev_newtonxpipg\" -I \"C:\\Users\\dayou\\OneDrive\\Documents\\MATLAB\\Newtonpipg+paper\\newtonpipg\" -I \"C:\\Users\\dayou\\OneDrive\\Documents\\MATLAB\\Newtonpipg+paper\\newtonpipg\\codegen\\mex\\dev_newtonxpipg\\interface\" -I \"C:\\Program Files\\MATLAB\\R2022b\\extern\\include\" -I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=dev_newtonxpipg_mex -D__USE_MINGW_ANSI_STDIO=1 -DMW_NEEDS_VERSION_H   dev_newtonxpipg_mexutil.cpp -o build/win64/dev_newtonxpipg_mexutil.o",
+    "file": "dev_newtonxpipg_mexutil.cpp",
+    "output": "build/win64/dev_newtonxpipg_mexutil.o"
+  },
+  {
+    "directory": "C:\\Users\\dayou\\OneDrive\\Documents\\MATLAB\\Newtonpipg+paper\\newtonpipg\\codegen\\mex\\dev_newtonxpipg",
+    "command": "C:\\ProgramData\\MATLAB\\SupportPackages\\R2022b\\3P.instrset\\mingw_w64.instrset\\bin\\g++ -c -fexceptions -fno-omit-frame-pointer -std=c++11 -m64 -DMATLAB_MEX_FILE  -DMATLAB_MEX_FILE -O2 -fwrapv -DNDEBUG -std=c++11 -I \"C:\\Users\\dayou\\OneDrive\\Documents\\MATLAB\\Newtonpipg+paper\\newtonpipg\\codegen\\mex\\dev_newtonxpipg\" -I \"C:\\Users\\dayou\\OneDrive\\Documents\\MATLAB\\Newtonpipg+paper\\newtonpipg\" -I \"C:\\Users\\dayou\\OneDrive\\Documents\\MATLAB\\Newtonpipg+paper\\newtonpipg\\codegen\\mex\\dev_newtonxpipg\\interface\" -I \"C:\\Program Files\\MATLAB\\R2022b\\extern\\include\" -I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=dev_newtonxpipg_mex -D__USE_MINGW_ANSI_STDIO=1 -DMW_NEEDS_VERSION_H   interface/_coder_dev_newtonxpipg_info.cpp -o build/win64/_coder_dev_newtonxpipg_info.o",
+    "file": "interface/_coder_dev_newtonxpipg_info.cpp",
+    "output": "build/win64/_coder_dev_newtonxpipg_info.o"
+  },
+  {
+    "directory": "C:\\Users\\dayou\\OneDrive\\Documents\\MATLAB\\Newtonpipg+paper\\newtonpipg\\codegen\\mex\\dev_newtonxpipg",
+    "command": "C:\\ProgramData\\MATLAB\\SupportPackages\\R2022b\\3P.instrset\\mingw_w64.instrset\\bin\\g++ -c -fexceptions -fno-omit-frame-pointer -std=c++11 -m64 -DMATLAB_MEX_FILE  -DMATLAB_MEX_FILE -O2 -fwrapv -DNDEBUG -std=c++11 -I \"C:\\Users\\dayou\\OneDrive\\Documents\\MATLAB\\Newtonpipg+paper\\newtonpipg\\codegen\\mex\\dev_newtonxpipg\" -I \"C:\\Users\\dayou\\OneDrive\\Documents\\MATLAB\\Newtonpipg+paper\\newtonpipg\" -I \"C:\\Users\\dayou\\OneDrive\\Documents\\MATLAB\\Newtonpipg+paper\\newtonpipg\\codegen\\mex\\dev_newtonxpipg\\interface\" -I \"C:\\Program Files\\MATLAB\\R2022b\\extern\\include\" -I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=dev_newtonxpipg_mex -D__USE_MINGW_ANSI_STDIO=1 -DMW_NEEDS_VERSION_H   \"C:/Program Files/MATLAB/R2022b/extern/version/cpp_mexapi_version.cpp\" -o build/win64/cpp_mexapi_version.o",
+    "file": "C:/Program Files/MATLAB/R2022b/extern/version/cpp_mexapi_version.cpp",
+    "output": "build/win64/cpp_mexapi_version.o"
+  }
+]

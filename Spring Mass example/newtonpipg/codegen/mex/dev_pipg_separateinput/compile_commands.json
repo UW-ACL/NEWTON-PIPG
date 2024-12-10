@@ -1,0 +1,116 @@
+[
+  {
+    "directory": "C:\\Users\\dayou\\OneDrive\\Documents\\MATLAB\\Newtonpipg+paper\\newtonpipg\\codegen\\mex\\dev_pipg_separateinput",
+    "command": "C:\\ProgramData\\MATLAB\\SupportPackages\\R2022b\\3P.instrset\\mingw_w64.instrset\\bin\\g++ -c -fexceptions -fno-omit-frame-pointer -std=c++11 -m64 -DMATLAB_MEX_FILE  -DMATLAB_MEX_FILE -O2 -fwrapv -DNDEBUG -std=c++11 -I \"C:\\Users\\dayou\\OneDrive\\Documents\\MATLAB\\Newtonpipg+paper\\newtonpipg\\codegen\\mex\\dev_pipg_separateinput\" -I \"C:\\Users\\dayou\\OneDrive\\Documents\\MATLAB\\Newtonpipg+paper\\newtonpipg\" -I \"C:\\Users\\dayou\\OneDrive\\Documents\\MATLAB\\Newtonpipg+paper\\newtonpipg\\codegen\\mex\\dev_pipg_separateinput\\interface\" -I \"C:\\Program Files\\MATLAB\\R2022b\\extern\\include\" -I \".\" -DMODEL=dev_xpipg_n32_m16_N100_mex -D__USE_MINGW_ANSI_STDIO=1 -DMW_NEEDS_VERSION_H   dev_pipg_separateinput_data.cpp -o build/win64/dev_pipg_separateinput_data.o",
+    "file": "dev_pipg_separateinput_data.cpp",
+    "output": "build/win64/dev_pipg_separateinput_data.o"
+  },
+  {
+    "directory": "C:\\Users\\dayou\\OneDrive\\Documents\\MATLAB\\Newtonpipg+paper\\newtonpipg\\codegen\\mex\\dev_pipg_separateinput",
+    "command": "C:\\ProgramData\\MATLAB\\SupportPackages\\R2022b\\3P.instrset\\mingw_w64.instrset\\bin\\g++ -c -fexceptions -fno-omit-frame-pointer -std=c++11 -m64 -DMATLAB_MEX_FILE  -DMATLAB_MEX_FILE -O2 -fwrapv -DNDEBUG -std=c++11 -I \"C:\\Users\\dayou\\OneDrive\\Documents\\MATLAB\\Newtonpipg+paper\\newtonpipg\\codegen\\mex\\dev_pipg_separateinput\" -I \"C:\\Users\\dayou\\OneDrive\\Documents\\MATLAB\\Newtonpipg+paper\\newtonpipg\" -I \"C:\\Users\\dayou\\OneDrive\\Documents\\MATLAB\\Newtonpipg+paper\\newtonpipg\\codegen\\mex\\dev_pipg_separateinput\\interface\" -I \"C:\\Program Files\\MATLAB\\R2022b\\extern\\include\" -I \".\" -DMODEL=dev_xpipg_n32_m16_N100_mex -D__USE_MINGW_ANSI_STDIO=1 -DMW_NEEDS_VERSION_H   rt_nonfinite.cpp -o build/win64/rt_nonfinite.o",
+    "file": "rt_nonfinite.cpp",
+    "output": "build/win64/rt_nonfinite.o"
+  },
+  {
+    "directory": "C:\\Users\\dayou\\OneDrive\\Documents\\MATLAB\\Newtonpipg+paper\\newtonpipg\\codegen\\mex\\dev_pipg_separateinput",
+    "command": "C:\\ProgramData\\MATLAB\\SupportPackages\\R2022b\\3P.instrset\\mingw_w64.instrset\\bin\\g++ -c -fexceptions -fno-omit-frame-pointer -std=c++11 -m64 -DMATLAB_MEX_FILE  -DMATLAB_MEX_FILE -O2 -fwrapv -DNDEBUG -std=c++11 -I \"C:\\Users\\dayou\\OneDrive\\Documents\\MATLAB\\Newtonpipg+paper\\newtonpipg\\codegen\\mex\\dev_pipg_separateinput\" -I \"C:\\Users\\dayou\\OneDrive\\Documents\\MATLAB\\Newtonpipg+paper\\newtonpipg\" -I \"C:\\Users\\dayou\\OneDrive\\Documents\\MATLAB\\Newtonpipg+paper\\newtonpipg\\codegen\\mex\\dev_pipg_separateinput\\interface\" -I \"C:\\Program Files\\MATLAB\\R2022b\\extern\\include\" -I \".\" -DMODEL=dev_xpipg_n32_m16_N100_mex -D__USE_MINGW_ANSI_STDIO=1 -DMW_NEEDS_VERSION_H   dev_pipg_separateinput_initialize.cpp -o build/win64/dev_pipg_separateinput_initialize.o",
+    "file": "dev_pipg_separateinput_initialize.cpp",
+    "output": "build/win64/dev_pipg_separateinput_initialize.o"
+  },
+  {
+    "directory": "C:\\Users\\dayou\\OneDrive\\Documents\\MATLAB\\Newtonpipg+paper\\newtonpipg\\codegen\\mex\\dev_pipg_separateinput",
+    "command": "C:\\ProgramData\\MATLAB\\SupportPackages\\R2022b\\3P.instrset\\mingw_w64.instrset\\bin\\g++ -c -fexceptions -fno-omit-frame-pointer -std=c++11 -m64 -DMATLAB_MEX_FILE  -DMATLAB_MEX_FILE -O2 -fwrapv -DNDEBUG -std=c++11 -I \"C:\\Users\\dayou\\OneDrive\\Documents\\MATLAB\\Newtonpipg+paper\\newtonpipg\\codegen\\mex\\dev_pipg_separateinput\" -I \"C:\\Users\\dayou\\OneDrive\\Documents\\MATLAB\\Newtonpipg+paper\\newtonpipg\" -I \"C:\\Users\\dayou\\OneDrive\\Documents\\MATLAB\\Newtonpipg+paper\\newtonpipg\\codegen\\mex\\dev_pipg_separateinput\\interface\" -I \"C:\\Program Files\\MATLAB\\R2022b\\extern\\include\" -I \".\" -DMODEL=dev_xpipg_n32_m16_N100_mex -D__USE_MINGW_ANSI_STDIO=1 -DMW_NEEDS_VERSION_H   dev_pipg_separateinput_terminate.cpp -o build/win64/dev_pipg_separateinput_terminate.o",
+    "file": "dev_pipg_separateinput_terminate.cpp",
+    "output": "build/win64/dev_pipg_separateinput_terminate.o"
+  },
+  {
+    "directory": "C:\\Users\\dayou\\OneDrive\\Documents\\MATLAB\\Newtonpipg+paper\\newtonpipg\\codegen\\mex\\dev_pipg_separateinput",
+    "command": "C:\\ProgramData\\MATLAB\\SupportPackages\\R2022b\\3P.instrset\\mingw_w64.instrset\\bin\\g++ -c -fexceptions -fno-omit-frame-pointer -std=c++11 -m64 -DMATLAB_MEX_FILE  -DMATLAB_MEX_FILE -O2 -fwrapv -DNDEBUG -std=c++11 -I \"C:\\Users\\dayou\\OneDrive\\Documents\\MATLAB\\Newtonpipg+paper\\newtonpipg\\codegen\\mex\\dev_pipg_separateinput\" -I \"C:\\Users\\dayou\\OneDrive\\Documents\\MATLAB\\Newtonpipg+paper\\newtonpipg\" -I \"C:\\Users\\dayou\\OneDrive\\Documents\\MATLAB\\Newtonpipg+paper\\newtonpipg\\codegen\\mex\\dev_pipg_separateinput\\interface\" -I \"C:\\Program Files\\MATLAB\\R2022b\\extern\\include\" -I \".\" -DMODEL=dev_xpipg_n32_m16_N100_mex -D__USE_MINGW_ANSI_STDIO=1 -DMW_NEEDS_VERSION_H   dev_pipg_separateinput.cpp -o build/win64/dev_pipg_separateinput.o",
+    "file": "dev_pipg_separateinput.cpp",
+    "output": "build/win64/dev_pipg_separateinput.o"
+  },
+  {
+    "directory": "C:\\Users\\dayou\\OneDrive\\Documents\\MATLAB\\Newtonpipg+paper\\newtonpipg\\codegen\\mex\\dev_pipg_separateinput",
+    "command": "C:\\ProgramData\\MATLAB\\SupportPackages\\R2022b\\3P.instrset\\mingw_w64.instrset\\bin\\g++ -c -fexceptions -fno-omit-frame-pointer -std=c++11 -m64 -DMATLAB_MEX_FILE  -DMATLAB_MEX_FILE -O2 -fwrapv -DNDEBUG -std=c++11 -I \"C:\\Users\\dayou\\OneDrive\\Documents\\MATLAB\\Newtonpipg+paper\\newtonpipg\\codegen\\mex\\dev_pipg_separateinput\" -I \"C:\\Users\\dayou\\OneDrive\\Documents\\MATLAB\\Newtonpipg+paper\\newtonpipg\" -I \"C:\\Users\\dayou\\OneDrive\\Documents\\MATLAB\\Newtonpipg+paper\\newtonpipg\\codegen\\mex\\dev_pipg_separateinput\\interface\" -I \"C:\\Program Files\\MATLAB\\R2022b\\extern\\include\" -I \".\" -DMODEL=dev_xpipg_n32_m16_N100_mex -D__USE_MINGW_ANSI_STDIO=1 -DMW_NEEDS_VERSION_H   tic.cpp -o build/win64/tic.o",
+    "file": "tic.cpp",
+    "output": "build/win64/tic.o"
+  },
+  {
+    "directory": "C:\\Users\\dayou\\OneDrive\\Documents\\MATLAB\\Newtonpipg+paper\\newtonpipg\\codegen\\mex\\dev_pipg_separateinput",
+    "command": "C:\\ProgramData\\MATLAB\\SupportPackages\\R2022b\\3P.instrset\\mingw_w64.instrset\\bin\\g++ -c -fexceptions -fno-omit-frame-pointer -std=c++11 -m64 -DMATLAB_MEX_FILE  -DMATLAB_MEX_FILE -O2 -fwrapv -DNDEBUG -std=c++11 -I \"C:\\Users\\dayou\\OneDrive\\Documents\\MATLAB\\Newtonpipg+paper\\newtonpipg\\codegen\\mex\\dev_pipg_separateinput\" -I \"C:\\Users\\dayou\\OneDrive\\Documents\\MATLAB\\Newtonpipg+paper\\newtonpipg\" -I \"C:\\Users\\dayou\\OneDrive\\Documents\\MATLAB\\Newtonpipg+paper\\newtonpipg\\codegen\\mex\\dev_pipg_separateinput\\interface\" -I \"C:\\Program Files\\MATLAB\\R2022b\\extern\\include\" -I \".\" -DMODEL=dev_xpipg_n32_m16_N100_mex -D__USE_MINGW_ANSI_STDIO=1 -DMW_NEEDS_VERSION_H   timeKeeper.cpp -o build/win64/timeKeeper.o",
+    "file": "timeKeeper.cpp",
+    "output": "build/win64/timeKeeper.o"
+  },
+  {
+    "directory": "C:\\Users\\dayou\\OneDrive\\Documents\\MATLAB\\Newtonpipg+paper\\newtonpipg\\codegen\\mex\\dev_pipg_separateinput",
+    "command": "C:\\ProgramData\\MATLAB\\SupportPackages\\R2022b\\3P.instrset\\mingw_w64.instrset\\bin\\g++ -c -fexceptions -fno-omit-frame-pointer -std=c++11 -m64 -DMATLAB_MEX_FILE  -DMATLAB_MEX_FILE -O2 -fwrapv -DNDEBUG -std=c++11 -I \"C:\\Users\\dayou\\OneDrive\\Documents\\MATLAB\\Newtonpipg+paper\\newtonpipg\\codegen\\mex\\dev_pipg_separateinput\" -I \"C:\\Users\\dayou\\OneDrive\\Documents\\MATLAB\\Newtonpipg+paper\\newtonpipg\" -I \"C:\\Users\\dayou\\OneDrive\\Documents\\MATLAB\\Newtonpipg+paper\\newtonpipg\\codegen\\mex\\dev_pipg_separateinput\\interface\" -I \"C:\\Program Files\\MATLAB\\R2022b\\extern\\include\" -I \".\" -DMODEL=dev_xpipg_n32_m16_N100_mex -D__USE_MINGW_ANSI_STDIO=1 -DMW_NEEDS_VERSION_H   dev_HZ.cpp -o build/win64/dev_HZ.o",
+    "file": "dev_HZ.cpp",
+    "output": "build/win64/dev_HZ.o"
+  },
+  {
+    "directory": "C:\\Users\\dayou\\OneDrive\\Documents\\MATLAB\\Newtonpipg+paper\\newtonpipg\\codegen\\mex\\dev_pipg_separateinput",
+    "command": "C:\\ProgramData\\MATLAB\\SupportPackages\\R2022b\\3P.instrset\\mingw_w64.instrset\\bin\\g++ -c -fexceptions -fno-omit-frame-pointer -std=c++11 -m64 -DMATLAB_MEX_FILE  -DMATLAB_MEX_FILE -O2 -fwrapv -DNDEBUG -std=c++11 -I \"C:\\Users\\dayou\\OneDrive\\Documents\\MATLAB\\Newtonpipg+paper\\newtonpipg\\codegen\\mex\\dev_pipg_separateinput\" -I \"C:\\Users\\dayou\\OneDrive\\Documents\\MATLAB\\Newtonpipg+paper\\newtonpipg\" -I \"C:\\Users\\dayou\\OneDrive\\Documents\\MATLAB\\Newtonpipg+paper\\newtonpipg\\codegen\\mex\\dev_pipg_separateinput\\interface\" -I \"C:\\Program Files\\MATLAB\\R2022b\\extern\\include\" -I \".\" -DMODEL=dev_xpipg_n32_m16_N100_mex -D__USE_MINGW_ANSI_STDIO=1 -DMW_NEEDS_VERSION_H   indexShapeCheck.cpp -o build/win64/indexShapeCheck.o",
+    "file": "indexShapeCheck.cpp",
+    "output": "build/win64/indexShapeCheck.o"
+  },
+  {
+    "directory": "C:\\Users\\dayou\\OneDrive\\Documents\\MATLAB\\Newtonpipg+paper\\newtonpipg\\codegen\\mex\\dev_pipg_separateinput",
+    "command": "C:\\ProgramData\\MATLAB\\SupportPackages\\R2022b\\3P.instrset\\mingw_w64.instrset\\bin\\g++ -c -fexceptions -fno-omit-frame-pointer -std=c++11 -m64 -DMATLAB_MEX_FILE  -DMATLAB_MEX_FILE -O2 -fwrapv -DNDEBUG -std=c++11 -I \"C:\\Users\\dayou\\OneDrive\\Documents\\MATLAB\\Newtonpipg+paper\\newtonpipg\\codegen\\mex\\dev_pipg_separateinput\" -I \"C:\\Users\\dayou\\OneDrive\\Documents\\MATLAB\\Newtonpipg+paper\\newtonpipg\" -I \"C:\\Users\\dayou\\OneDrive\\Documents\\MATLAB\\Newtonpipg+paper\\newtonpipg\\codegen\\mex\\dev_pipg_separateinput\\interface\" -I \"C:\\Program Files\\MATLAB\\R2022b\\extern\\include\" -I \".\" -DMODEL=dev_xpipg_n32_m16_N100_mex -D__USE_MINGW_ANSI_STDIO=1 -DMW_NEEDS_VERSION_H   mtimes.cpp -o build/win64/mtimes.o",
+    "file": "mtimes.cpp",
+    "output": "build/win64/mtimes.o"
+  },
+  {
+    "directory": "C:\\Users\\dayou\\OneDrive\\Documents\\MATLAB\\Newtonpipg+paper\\newtonpipg\\codegen\\mex\\dev_pipg_separateinput",
+    "command": "C:\\ProgramData\\MATLAB\\SupportPackages\\R2022b\\3P.instrset\\mingw_w64.instrset\\bin\\g++ -c -fexceptions -fno-omit-frame-pointer -std=c++11 -m64 -DMATLAB_MEX_FILE  -DMATLAB_MEX_FILE -O2 -fwrapv -DNDEBUG -std=c++11 -I \"C:\\Users\\dayou\\OneDrive\\Documents\\MATLAB\\Newtonpipg+paper\\newtonpipg\\codegen\\mex\\dev_pipg_separateinput\" -I \"C:\\Users\\dayou\\OneDrive\\Documents\\MATLAB\\Newtonpipg+paper\\newtonpipg\" -I \"C:\\Users\\dayou\\OneDrive\\Documents\\MATLAB\\Newtonpipg+paper\\newtonpipg\\codegen\\mex\\dev_pipg_separateinput\\interface\" -I \"C:\\Program Files\\MATLAB\\R2022b\\extern\\include\" -I \".\" -DMODEL=dev_xpipg_n32_m16_N100_mex -D__USE_MINGW_ANSI_STDIO=1 -DMW_NEEDS_VERSION_H   dev_HtZ.cpp -o build/win64/dev_HtZ.o",
+    "file": "dev_HtZ.cpp",
+    "output": "build/win64/dev_HtZ.o"
+  },
+  {
+    "directory": "C:\\Users\\dayou\\OneDrive\\Documents\\MATLAB\\Newtonpipg+paper\\newtonpipg\\codegen\\mex\\dev_pipg_separateinput",
+    "command": "C:\\ProgramData\\MATLAB\\SupportPackages\\R2022b\\3P.instrset\\mingw_w64.instrset\\bin\\g++ -c -fexceptions -fno-omit-frame-pointer -std=c++11 -m64 -DMATLAB_MEX_FILE  -DMATLAB_MEX_FILE -O2 -fwrapv -DNDEBUG -std=c++11 -I \"C:\\Users\\dayou\\OneDrive\\Documents\\MATLAB\\Newtonpipg+paper\\newtonpipg\\codegen\\mex\\dev_pipg_separateinput\" -I \"C:\\Users\\dayou\\OneDrive\\Documents\\MATLAB\\Newtonpipg+paper\\newtonpipg\" -I \"C:\\Users\\dayou\\OneDrive\\Documents\\MATLAB\\Newtonpipg+paper\\newtonpipg\\codegen\\mex\\dev_pipg_separateinput\\interface\" -I \"C:\\Program Files\\MATLAB\\R2022b\\extern\\include\" -I \".\" -DMODEL=dev_xpipg_n32_m16_N100_mex -D__USE_MINGW_ANSI_STDIO=1 -DMW_NEEDS_VERSION_H   ixfun.cpp -o build/win64/ixfun.o",
+    "file": "ixfun.cpp",
+    "output": "build/win64/ixfun.o"
+  },
+  {
+    "directory": "C:\\Users\\dayou\\OneDrive\\Documents\\MATLAB\\Newtonpipg+paper\\newtonpipg\\codegen\\mex\\dev_pipg_separateinput",
+    "command": "C:\\ProgramData\\MATLAB\\SupportPackages\\R2022b\\3P.instrset\\mingw_w64.instrset\\bin\\g++ -c -fexceptions -fno-omit-frame-pointer -std=c++11 -m64 -DMATLAB_MEX_FILE  -DMATLAB_MEX_FILE -O2 -fwrapv -DNDEBUG -std=c++11 -I \"C:\\Users\\dayou\\OneDrive\\Documents\\MATLAB\\Newtonpipg+paper\\newtonpipg\\codegen\\mex\\dev_pipg_separateinput\" -I \"C:\\Users\\dayou\\OneDrive\\Documents\\MATLAB\\Newtonpipg+paper\\newtonpipg\" -I \"C:\\Users\\dayou\\OneDrive\\Documents\\MATLAB\\Newtonpipg+paper\\newtonpipg\\codegen\\mex\\dev_pipg_separateinput\\interface\" -I \"C:\\Program Files\\MATLAB\\R2022b\\extern\\include\" -I \".\" -DMODEL=dev_xpipg_n32_m16_N100_mex -D__USE_MINGW_ANSI_STDIO=1 -DMW_NEEDS_VERSION_H   toc.cpp -o build/win64/toc.o",
+    "file": "toc.cpp",
+    "output": "build/win64/toc.o"
+  },
+  {
+    "directory": "C:\\Users\\dayou\\OneDrive\\Documents\\MATLAB\\Newtonpipg+paper\\newtonpipg\\codegen\\mex\\dev_pipg_separateinput",
+    "command": "C:\\ProgramData\\MATLAB\\SupportPackages\\R2022b\\3P.instrset\\mingw_w64.instrset\\bin\\g++ -c -fexceptions -fno-omit-frame-pointer -std=c++11 -m64 -DMATLAB_MEX_FILE  -DMATLAB_MEX_FILE -O2 -fwrapv -DNDEBUG -std=c++11 -I \"C:\\Users\\dayou\\OneDrive\\Documents\\MATLAB\\Newtonpipg+paper\\newtonpipg\\codegen\\mex\\dev_pipg_separateinput\" -I \"C:\\Users\\dayou\\OneDrive\\Documents\\MATLAB\\Newtonpipg+paper\\newtonpipg\" -I \"C:\\Users\\dayou\\OneDrive\\Documents\\MATLAB\\Newtonpipg+paper\\newtonpipg\\codegen\\mex\\dev_pipg_separateinput\\interface\" -I \"C:\\Program Files\\MATLAB\\R2022b\\extern\\include\" -I \".\" -DMODEL=dev_xpipg_n32_m16_N100_mex -D__USE_MINGW_ANSI_STDIO=1 -DMW_NEEDS_VERSION_H   interface/_coder_dev_pipg_separateinput_api.cpp -o build/win64/_coder_dev_pipg_separateinput_api.o",
+    "file": "interface/_coder_dev_pipg_separateinput_api.cpp",
+    "output": "build/win64/_coder_dev_pipg_separateinput_api.o"
+  },
+  {
+    "directory": "C:\\Users\\dayou\\OneDrive\\Documents\\MATLAB\\Newtonpipg+paper\\newtonpipg\\codegen\\mex\\dev_pipg_separateinput",
+    "command": "C:\\ProgramData\\MATLAB\\SupportPackages\\R2022b\\3P.instrset\\mingw_w64.instrset\\bin\\g++ -c -fexceptions -fno-omit-frame-pointer -std=c++11 -m64 -DMATLAB_MEX_FILE  -DMATLAB_MEX_FILE -O2 -fwrapv -DNDEBUG -std=c++11 -I \"C:\\Users\\dayou\\OneDrive\\Documents\\MATLAB\\Newtonpipg+paper\\newtonpipg\\codegen\\mex\\dev_pipg_separateinput\" -I \"C:\\Users\\dayou\\OneDrive\\Documents\\MATLAB\\Newtonpipg+paper\\newtonpipg\" -I \"C:\\Users\\dayou\\OneDrive\\Documents\\MATLAB\\Newtonpipg+paper\\newtonpipg\\codegen\\mex\\dev_pipg_separateinput\\interface\" -I \"C:\\Program Files\\MATLAB\\R2022b\\extern\\include\" -I \".\" -DMODEL=dev_xpipg_n32_m16_N100_mex -D__USE_MINGW_ANSI_STDIO=1 -DMW_NEEDS_VERSION_H   interface/_coder_dev_pipg_separateinput_mex.cpp -o build/win64/_coder_dev_pipg_separateinput_mex.o",
+    "file": "interface/_coder_dev_pipg_separateinput_mex.cpp",
+    "output": "build/win64/_coder_dev_pipg_separateinput_mex.o"
+  },
+  {
+    "directory": "C:\\Users\\dayou\\OneDrive\\Documents\\MATLAB\\Newtonpipg+paper\\newtonpipg\\codegen\\mex\\dev_pipg_separateinput",
+    "command": "C:\\ProgramData\\MATLAB\\SupportPackages\\R2022b\\3P.instrset\\mingw_w64.instrset\\bin\\g++ -c -fexceptions -fno-omit-frame-pointer -std=c++11 -m64 -DMATLAB_MEX_FILE  -DMATLAB_MEX_FILE -O2 -fwrapv -DNDEBUG -std=c++11 -I \"C:\\Users\\dayou\\OneDrive\\Documents\\MATLAB\\Newtonpipg+paper\\newtonpipg\\codegen\\mex\\dev_pipg_separateinput\" -I \"C:\\Users\\dayou\\OneDrive\\Documents\\MATLAB\\Newtonpipg+paper\\newtonpipg\" -I \"C:\\Users\\dayou\\OneDrive\\Documents\\MATLAB\\Newtonpipg+paper\\newtonpipg\\codegen\\mex\\dev_pipg_separateinput\\interface\" -I \"C:\\Program Files\\MATLAB\\R2022b\\extern\\include\" -I \".\" -DMODEL=dev_xpipg_n32_m16_N100_mex -D__USE_MINGW_ANSI_STDIO=1 -DMW_NEEDS_VERSION_H   dev_onestep_xpipg.cpp -o build/win64/dev_onestep_xpipg.o",
+    "file": "dev_onestep_xpipg.cpp",
+    "output": "build/win64/dev_onestep_xpipg.o"
+  },
+  {
+    "directory": "C:\\Users\\dayou\\OneDrive\\Documents\\MATLAB\\Newtonpipg+paper\\newtonpipg\\codegen\\mex\\dev_pipg_separateinput",
+    "command": "C:\\ProgramData\\MATLAB\\SupportPackages\\R2022b\\3P.instrset\\mingw_w64.instrset\\bin\\g++ -c -fexceptions -fno-omit-frame-pointer -std=c++11 -m64 -DMATLAB_MEX_FILE  -DMATLAB_MEX_FILE -O2 -fwrapv -DNDEBUG -std=c++11 -I \"C:\\Users\\dayou\\OneDrive\\Documents\\MATLAB\\Newtonpipg+paper\\newtonpipg\\codegen\\mex\\dev_pipg_separateinput\" -I \"C:\\Users\\dayou\\OneDrive\\Documents\\MATLAB\\Newtonpipg+paper\\newtonpipg\" -I \"C:\\Users\\dayou\\OneDrive\\Documents\\MATLAB\\Newtonpipg+paper\\newtonpipg\\codegen\\mex\\dev_pipg_separateinput\\interface\" -I \"C:\\Program Files\\MATLAB\\R2022b\\extern\\include\" -I \".\" -DMODEL=dev_xpipg_n32_m16_N100_mex -D__USE_MINGW_ANSI_STDIO=1 -DMW_NEEDS_VERSION_H   eml_mtimes_helper.cpp -o build/win64/eml_mtimes_helper.o",
+    "file": "eml_mtimes_helper.cpp",
+    "output": "build/win64/eml_mtimes_helper.o"
+  },
+  {
+    "directory": "C:\\Users\\dayou\\OneDrive\\Documents\\MATLAB\\Newtonpipg+paper\\newtonpipg\\codegen\\mex\\dev_pipg_separateinput",
+    "command": "C:\\ProgramData\\MATLAB\\SupportPackages\\R2022b\\3P.instrset\\mingw_w64.instrset\\bin\\g++ -c -fexceptions -fno-omit-frame-pointer -std=c++11 -m64 -DMATLAB_MEX_FILE  -DMATLAB_MEX_FILE -O2 -fwrapv -DNDEBUG -std=c++11 -I \"C:\\Users\\dayou\\OneDrive\\Documents\\MATLAB\\Newtonpipg+paper\\newtonpipg\\codegen\\mex\\dev_pipg_separateinput\" -I \"C:\\Users\\dayou\\OneDrive\\Documents\\MATLAB\\Newtonpipg+paper\\newtonpipg\" -I \"C:\\Users\\dayou\\OneDrive\\Documents\\MATLAB\\Newtonpipg+paper\\newtonpipg\\codegen\\mex\\dev_pipg_separateinput\\interface\" -I \"C:\\Program Files\\MATLAB\\R2022b\\extern\\include\" -I \".\" -DMODEL=dev_xpipg_n32_m16_N100_mex -D__USE_MINGW_ANSI_STDIO=1 -DMW_NEEDS_VERSION_H   interface/_coder_dev_pipg_separateinput_info.cpp -o build/win64/_coder_dev_pipg_separateinput_info.o",
+    "file": "interface/_coder_dev_pipg_separateinput_info.cpp",
+    "output": "build/win64/_coder_dev_pipg_separateinput_info.o"
+  },
+  {
+    "directory": "C:\\Users\\dayou\\OneDrive\\Documents\\MATLAB\\Newtonpipg+paper\\newtonpipg\\codegen\\mex\\dev_pipg_separateinput",
+    "command": "C:\\ProgramData\\MATLAB\\SupportPackages\\R2022b\\3P.instrset\\mingw_w64.instrset\\bin\\g++ -c -fexceptions -fno-omit-frame-pointer -std=c++11 -m64 -DMATLAB_MEX_FILE  -DMATLAB_MEX_FILE -O2 -fwrapv -DNDEBUG -std=c++11 -I \"C:\\Users\\dayou\\OneDrive\\Documents\\MATLAB\\Newtonpipg+paper\\newtonpipg\\codegen\\mex\\dev_pipg_separateinput\" -I \"C:\\Users\\dayou\\OneDrive\\Documents\\MATLAB\\Newtonpipg+paper\\newtonpipg\" -I \"C:\\Users\\dayou\\OneDrive\\Documents\\MATLAB\\Newtonpipg+paper\\newtonpipg\\codegen\\mex\\dev_pipg_separateinput\\interface\" -I \"C:\\Program Files\\MATLAB\\R2022b\\extern\\include\" -I \".\" -DMODEL=dev_xpipg_n32_m16_N100_mex -D__USE_MINGW_ANSI_STDIO=1 -DMW_NEEDS_VERSION_H   \"C:/Program Files/MATLAB/R2022b/extern/version/cpp_mexapi_version.cpp\" -o build/win64/cpp_mexapi_version.o",
+    "file": "C:/Program Files/MATLAB/R2022b/extern/version/cpp_mexapi_version.cpp",
+    "output": "build/win64/cpp_mexapi_version.o"
+  }
+]
