@@ -23,14 +23,14 @@ This repository contains the implementation of the Newton PIPG algorithm for the
    **Note**:  
    The current algorithm is only compatible with specific dimensions. This limitation arises because MATLAB Coder requires fixed input sizes when converting MATLAB code to C.  
    - If you wish to test other examples or input sizes, you must recompile the MATLAB code using MATLAB Coder.  
-   - After compilation, function names are often appended with a suffix, such as `-mx`. When running the code:
-     - To use the original MATLAB version, comment out the `-mx` version.
-     - To use the faster C implementation, comment out the original version and use the `-mx` version instead.
+   - After compilation, function names are often appended with a suffix, such as `-mex`. When running the code:
+     - To use the original MATLAB version, comment out the `-mex` version.
+     - To use the faster C implementation, comment out the original version and use the `-mex` version instead.
 
 2. **Running the Main Program**:  
    Use the `Main.m` file in the `main` folder to execute the PDG example and test the Newton PIPG algorithm.
 
 ## Dependencies
 
-- **yamlip**: This library and its built-in `ecodes` module are required for running the algorithms.  
+- **yamlip**: This library and its built-in `ecos` module are required for running the algorithms.  
   A sample implementation of `yamlip` usage is included in the repository for reference.
