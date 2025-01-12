@@ -1,4 +1,4 @@
-# NEWTON-PIPG
+
 # NEWTON-PIPG for Quadratic Programming Problems
 
 This repository contains the implementation of the NEWTON-PIPG algorithm for solving Quadratic Programming (QP) problems. This algorithm is part of ongoing research. 
