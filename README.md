@@ -1,7 +1,7 @@
 
 # NEWTON-PIPG for Quadratic Programming Problems
 
-This repository contains the implementation of the NEWTON-PIPG algorithm for solving Quadratic Programming (QP) problems. This algorithm is part of ongoing research. 
+This repository contains the implementation of the NEWTON-PIPG algorithm for solving Quadratic Programming (QP) problems. 
 
 
 ## Copyright Notice
@@ -11,7 +11,7 @@ This repository contains the implementation of the NEWTON-PIPG algorithm for sol
 This repository is provided **for personal review and non-commercial use only**. Redistribution, modification, or any use of the content for academic or commercial purposes **without explicit permission** is strictly prohibited.
 
 ## Disclaimer
-This work is part of ongoing research and has not been finalized or peer-reviewed. Unauthorized use, reproduction, or publication of any content may result in legal action.
+This work is part of ongoing research and has not been peer-reviewed. Unauthorized use, reproduction, or publication of any content may result in legal action.
 
 ---
 
