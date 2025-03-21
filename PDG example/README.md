@@ -1,6 +1,6 @@
 # Newton PIPG - PDG Example Code
 
-This repository contains the implementation of the Newton PIPG algorithm for the PDG example, designed to generalize Newton PIPG to problems involving projections onto second-order cones and balls.
+This repository contains the implementation of the Newton PIPG algorithm for the PDG example, designed to generalize Newton PIPG to problems involving linear inequalities and projections onto second-order cones and balls.
 
 ## Directory Structure
 
