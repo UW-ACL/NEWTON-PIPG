@@ -28,6 +28,7 @@ This repository implements the Newton PIPG algorithm for solving Spring-Mass pro
 3. **MATLAB to C Code Conversion**:
    - The Newton PIPG algorithm is designed to be compiled into C for optimal performance. To do this:
      - Use MATLAB Coder to convert MATLAB code into C.
+       - See:https://www.mathworks.com/help/coder/gs/generating-c-code-from-matlab-code-using-the-matlab-coder-project-interface.html
      - Disable "Enable dynamic memory allocation" in the MATLAB Coder settings to ensure better computation speed.
      - As this project does not include a dedicated script for simplifying the conversion process, refer to the general MATLAB Coder workflow for guidance.
    - **Important**: After compilation, the generated function names often include an `-mex` suffix. When running the code:
