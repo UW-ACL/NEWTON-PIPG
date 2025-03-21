@@ -16,7 +16,7 @@ This repository contains the implementation of the Newton PIPG algorithm for the
 
 1. **MATLAB to C Code Generation**:  
    All code is initially implemented in MATLAB and must be compiled into C using MATLAB Coder for optimal performance. To generate C code:
-   - Follow the MATLAB Coder process.
+   - Follow the MATLAB Coder process:https://www.mathworks.com/help/coder/gs/generating-c-code-from-matlab-code-using-the-matlab-coder-project-interface.html
    - Ensure "Enable dynamic memory allocation" is disabled.
    - Use `Test_pipg_30.m` in the `main` folder to simplify the compilation process.
 
